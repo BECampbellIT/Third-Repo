@@ -1,0 +1,28 @@
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\obj\Debug\StandAlonePackingLib.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\StandAlonePackingLib.dll.config
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\StandAlonePackingLib.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\StandAlonePackingLib.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\ShopFloorLib.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\ScaleSimulator.exe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\ShopFloorLib.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\obj\Debug\StandAlonePackingLib.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\obj\Debug\StandAlonePackingLib.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\ScaleSimulator.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\MySql.Data.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\MySql.Data.xml
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\ScaleSimulator.exe.config
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\obj\Debug\StandAlonePackingLib.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\StandAlonePackingLib.dll.config
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\StandAlonePackingLib.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\StandAlonePackingLib.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\MySql.Data.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\ShopFloorLib.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\ScaleSimulator.exe
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\ShopFloorLib.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\MySql.Data.xml
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\ScaleSimulator.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\bin\Debug\ScaleSimulator.exe.config
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\obj\Debug\StandAlonePackingLib.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\obj\Debug\StandAlonePackingLib.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\obj\Debug\StandAlonePackingLib.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingLib\obj\Debug\StandAlonePackingLib.pdb

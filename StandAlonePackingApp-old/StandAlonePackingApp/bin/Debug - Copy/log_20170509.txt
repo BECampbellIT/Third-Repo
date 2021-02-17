@@ -1,0 +1,276 @@
+05/09/17 10:01:37.202 : E Error reading materials from SAP
+05/09/17 10:01:37.252 : ? System.ServiceModel.CommunicationException: The server did not provide a meaningful reply; this might be caused by a contract mismatch, a premature session shutdown or an internal server error.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetFinishedGoodMaterials(ZGetFinishedGoodMaterialsRequest request)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetFinishedGoodMaterials(ZGetFinishedGoodMaterialsRequest request) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2132
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.ZGetFinishedGoodMaterials(ZGetFinishedGoodMaterials ZGetFinishedGoodMaterials1) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2138
+   at StandAlonePackingLib.Material.readMaterialsFromSAP(List`1& mats) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Material.cs:line 61
+05/09/17 10:01:37.337 : E Error reading orders from SAP
+05/09/17 10:01:37.348 : ? System.ServiceModel.CommunicationException: The server did not provide a meaningful reply; this might be caused by a contract mismatch, a premature session shutdown or an internal server error.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetProductionOrders(ZGetProductionOrdersRequest request)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetProductionOrders(ZGetProductionOrdersRequest request) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2155
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.ZGetProductionOrders(ZGetProductionOrders ZGetProductionOrders1) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2161
+   at StandAlonePackingLib.Order.ReadOrdersFromSAP(List`1& normalOrders, List`1& reworkOrders, List`1& slDates) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Order.cs:line 148
+05/09/17 10:01:54.219 : I 905 materials read from SAP
+05/09/17 10:02:00.655 : I 158 normal orders read from SAP
+05/09/17 10:02:00.665 : I 0 re-work orders read from SAP
+05/09/17 10:02:25.142 : I 905 materials read from SAP
+05/09/17 10:02:25.749 : I 158 normal orders read from SAP
+05/09/17 10:02:25.759 : I 0 re-work orders read from SAP
+05/09/17 10:02:40.563 : I Material 321800F0 tare set to 0.681
+05/09/17 10:07:27.515 : I 905 materials read from SAP
+05/09/17 10:07:28.104 : I 158 normal orders read from SAP
+05/09/17 10:07:28.115 : I 0 re-work orders read from SAP
+05/09/17 10:09:01.594 : I 158 normal orders read from SAP
+05/09/17 10:09:01.605 : I 0 re-work orders read from SAP
+05/09/17 10:09:37.555 : E Error reading materials from SAP
+05/09/17 10:09:37.559 : ? System.ServiceModel.CommunicationException: An error (The request was aborted: The request was canceled.) occurred while transmitting data over the HTTP channel. ---> System.Net.WebException: The request was aborted: The request was canceled.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetFinishedGoodMaterials(ZGetFinishedGoodMaterialsRequest request)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetFinishedGoodMaterials(ZGetFinishedGoodMaterialsRequest request) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2132
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.ZGetFinishedGoodMaterials(ZGetFinishedGoodMaterials ZGetFinishedGoodMaterials1) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2138
+   at StandAlonePackingLib.Material.readMaterialsFromSAP(List`1& mats) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Material.cs:line 61
+05/09/17 10:09:38.086 : W No master data for material 310000J0
+05/09/17 10:09:38.087 : W No master data for material 310100F0
+05/09/17 10:09:38.087 : W No master data for material 310400F0
+05/09/17 10:09:38.087 : W No master data for material 310500F0
+05/09/17 10:09:38.088 : W No master data for material 310600J0
+05/09/17 10:09:38.089 : W No master data for material 310800F0
+05/09/17 10:09:38.090 : W No master data for material 311300F0
+05/09/17 10:09:38.091 : W No master data for material 311400J0
+05/09/17 10:09:38.091 : W No master data for material 311600J0
+05/09/17 10:09:38.091 : W No master data for material 311700F0
+05/09/17 10:09:38.092 : W No master data for material 311800J0
+05/09/17 10:09:38.092 : W No master data for material 312100D0
+05/09/17 10:09:38.093 : W No master data for material 312200F0
+05/09/17 10:09:38.093 : W No master data for material 312300J0
+05/09/17 10:09:38.094 : W No master data for material 320000C0
+05/09/17 10:09:38.095 : W No master data for material 320300C0
+05/09/17 10:09:38.095 : W No master data for material 320400C0
+05/09/17 10:09:38.096 : W No master data for material 320500C0
+05/09/17 10:09:38.097 : W No master data for material 320600C0
+05/09/17 10:09:38.098 : W No master data for material 320700F0
+05/09/17 10:09:38.098 : W No master data for material 321100J0
+05/09/17 10:09:38.099 : W No master data for material 321400F0
+05/09/17 10:09:38.099 : W No master data for material 321600J0
+05/09/17 10:09:38.100 : W No master data for material 321800F0
+05/09/17 10:09:38.100 : W No master data for material 321800F0
+05/09/17 10:09:38.101 : W No master data for material 321800F0
+05/09/17 10:09:38.102 : W No master data for material 322100C0
+05/09/17 10:09:38.103 : W No master data for material 322400J0
+05/09/17 10:09:38.104 : W No master data for material 322500F0
+05/09/17 10:09:38.105 : W No master data for material 322800J0
+05/09/17 10:09:38.106 : W No master data for material 323300J0
+05/09/17 10:09:38.106 : W No master data for material 323400J0
+05/09/17 10:09:38.107 : W No master data for material 323500J0
+05/09/17 10:09:38.108 : W No master data for material 324000C0
+05/09/17 10:09:38.109 : W No master data for material 325100F0
+05/09/17 10:09:38.110 : W No master data for material 325200J0
+05/09/17 10:09:38.111 : W No master data for material 325900J0
+05/09/17 10:09:38.112 : W No master data for material 326000J0
+05/09/17 10:09:38.113 : W No master data for material 326800F0
+05/09/17 10:09:38.113 : W No master data for material 326900F0
+05/09/17 10:09:38.114 : W No master data for material 327000F0
+05/09/17 10:09:38.115 : W No master data for material 327100F0
+05/09/17 10:09:38.115 : W No master data for material 327200F0
+05/09/17 10:09:38.116 : W No master data for material 327300F0
+05/09/17 10:09:38.117 : W No master data for material 340200K0
+05/09/17 10:09:38.117 : W No master data for material 340900J0
+05/09/17 10:09:38.118 : W No master data for material 341000C0
+05/09/17 10:09:38.119 : W No master data for material 341100C0
+05/09/17 10:09:38.120 : W No master data for material 341400T0
+05/09/17 10:09:38.121 : W No master data for material 341500J0
+05/09/17 10:09:38.122 : W No master data for material 341600J0
+05/09/17 10:09:38.123 : W No master data for material 341700J0
+05/09/17 10:09:38.124 : W No master data for material 341800J0
+05/09/17 10:09:38.124 : W No master data for material 342000J0
+05/09/17 10:09:38.129 : W No master data for material 342100C0
+05/09/17 10:09:38.130 : W No master data for material 342200C0
+05/09/17 10:09:38.132 : W No master data for material 342300C0
+05/09/17 10:09:38.133 : W No master data for material 342400S0
+05/09/17 10:09:38.133 : W No master data for material 342500C0
+05/09/17 10:09:38.133 : W No master data for material 342600K0
+05/09/17 10:09:38.134 : W No master data for material 342700C0
+05/09/17 10:09:38.135 : W No master data for material 342800J0
+05/09/17 10:09:38.136 : W No master data for material 342900C0
+05/09/17 10:09:38.137 : W No master data for material 343100C0
+05/09/17 10:09:38.138 : W No master data for material 343400T0
+05/09/17 10:09:38.138 : W No master data for material 343500J0
+05/09/17 10:09:38.139 : W No master data for material 343800J0
+05/09/17 10:09:38.140 : W No master data for material 344000J0
+05/09/17 10:09:38.140 : W No master data for material 344100S0
+05/09/17 10:09:38.141 : W No master data for material 344900K0
+05/09/17 10:09:38.142 : W No master data for material 345100C0
+05/09/17 10:09:38.143 : W No master data for material 345200J0
+05/09/17 10:09:38.143 : W No master data for material 345300C0
+05/09/17 10:09:38.144 : W No master data for material 345400C0
+05/09/17 10:09:38.145 : W No master data for material 345500J0
+05/09/17 10:09:38.146 : W No master data for material 345600J0
+05/09/17 10:09:38.147 : W No master data for material 345900J0
+05/09/17 10:09:38.148 : W No master data for material 346100K0
+05/09/17 10:09:38.148 : W No master data for material 346300S0
+05/09/17 10:09:38.149 : W No master data for material 346400S0
+05/09/17 10:09:38.150 : W No master data for material 346500C0
+05/09/17 10:09:38.151 : W No master data for material 346700J0
+05/09/17 10:09:38.152 : W No master data for material 346900J0
+05/09/17 10:09:38.152 : W No master data for material 347600C0
+05/09/17 10:09:38.152 : W No master data for material 347700C0
+05/09/17 10:09:38.153 : W No master data for material 347800K0
+05/09/17 10:09:38.154 : W No master data for material 360000K0
+05/09/17 10:09:38.155 : W No master data for material 360200F0
+05/09/17 10:09:38.156 : W No master data for material 360400F0
+05/09/17 10:09:38.156 : W No master data for material 360500J0
+05/09/17 10:09:38.156 : W No master data for material 360900F0
+05/09/17 10:09:38.157 : W No master data for material 361000K0
+05/09/17 10:09:38.158 : W No master data for material 361400J0
+05/09/17 10:09:38.159 : W No master data for material 361500J0
+05/09/17 10:09:38.159 : W No master data for material 361800B0
+05/09/17 10:09:38.160 : W No master data for material 362000J0
+05/09/17 10:09:38.160 : W No master data for material 362100F0
+05/09/17 10:09:38.161 : W No master data for material 362300J0
+05/09/17 10:09:38.162 : W No master data for material 362400F0
+05/09/17 10:09:38.163 : W No master data for material 362600J0
+05/09/17 10:09:38.164 : W No master data for material 362700J0
+05/09/17 10:09:38.165 : W No master data for material 362800F0
+05/09/17 10:09:38.165 : W No master data for material 362900C0
+05/09/17 10:09:38.166 : W No master data for material 363200B0
+05/09/17 10:09:38.167 : W No master data for material 363400C0
+05/09/17 10:09:38.168 : W No master data for material 363700J0
+05/09/17 10:09:38.169 : W No master data for material 363800J0
+05/09/17 10:09:38.170 : W No master data for material 363900J0
+05/09/17 10:09:38.171 : W No master data for material 364800J0
+05/09/17 10:09:38.171 : W No master data for material 365000B0
+05/09/17 10:09:38.172 : W No master data for material 370000J0
+05/09/17 10:09:38.173 : W No master data for material 370800J0
+05/09/17 10:09:38.173 : W No master data for material 370900J0
+05/09/17 10:09:38.174 : W No master data for material 371000J0
+05/09/17 10:09:38.175 : W No master data for material 371300J0
+05/09/17 10:09:38.176 : W No master data for material 372300C0
+05/09/17 10:09:38.176 : W No master data for material 372400J0
+05/09/17 10:09:38.177 : W No master data for material 372500J0
+05/09/17 10:09:38.178 : W No master data for material 373400J0
+05/09/17 10:09:38.178 : W No master data for material 374700C0
+05/09/17 10:09:38.179 : W No master data for material 374900C0
+05/09/17 10:09:38.180 : W No master data for material 380000F0
+05/09/17 10:09:38.180 : W No master data for material 380100F0
+05/09/17 10:09:38.184 : W No master data for material 380200F0
+05/09/17 10:09:38.185 : W No master data for material 380400F0
+05/09/17 10:09:38.186 : W No master data for material 380500F0
+05/09/17 10:09:38.187 : W No master data for material 380600F0
+05/09/17 10:09:38.188 : W No master data for material 380700F0
+05/09/17 10:09:38.192 : W No master data for material 381100F0
+05/09/17 10:09:38.193 : W No master data for material 381300F0
+05/09/17 10:09:38.194 : W No master data for material 381700F0
+05/09/17 10:09:38.195 : W No master data for material 381700F0
+05/09/17 10:09:38.197 : W No master data for material 381700F0
+05/09/17 10:09:38.197 : W No master data for material 382000F0
+05/09/17 10:09:38.198 : W No master data for material 382000F0
+05/09/17 10:09:38.198 : W No master data for material 382000F0
+05/09/17 10:09:38.198 : W No master data for material 382000F0
+05/09/17 10:09:38.198 : W No master data for material 382100F0
+05/09/17 10:09:38.199 : W No master data for material 382200F0
+05/09/17 10:09:38.200 : W No master data for material 382300F0
+05/09/17 10:09:38.201 : W No master data for material 383200F0
+05/09/17 10:09:38.202 : W No master data for material 383200F0
+05/09/17 10:09:38.203 : W No master data for material 383200F0
+05/09/17 10:09:38.204 : W No master data for material 383200F0
+05/09/17 10:09:38.204 : W No master data for material 383500F0
+05/09/17 10:09:38.204 : W No master data for material 383600F0
+05/09/17 10:09:38.205 : W No master data for material 384000F0
+05/09/17 10:09:38.205 : W No master data for material 385000F0
+05/09/17 10:09:38.205 : W No master data for material 385300L0
+05/09/17 10:09:38.206 : W No master data for material 385900F0
+05/09/17 10:09:38.207 : W No master data for material 386100F0
+05/09/17 10:09:38.208 : W No master data for material 386300F0
+05/09/17 10:09:38.209 : W No master data for material 388300L0
+05/09/17 10:09:38.210 : W No master data for material 388500F0
+05/09/17 10:09:38.210 : W No master data for material 389300F0
+05/09/17 10:09:38.210 : W No master data for material 391300C0
+05/09/17 10:09:38.211 : W No master data for material 391800C0
+05/09/17 10:09:38.211 : W No master data for material 392800F0
+05/09/17 10:09:38.212 : W No master data for material 393000C0
+05/09/17 10:09:38.213 : W No master data for material 393100C0
+05/09/17 10:09:38.214 : W No master data for material 393200C0
+05/09/17 10:09:38.215 : W No master data for material 394400L0
+05/09/17 10:09:38.216 : W No master data for material 394500L0
+05/09/17 10:09:38.217 : W No master data for material 394600L0
+05/09/17 10:09:38.218 : W No master data for material 395600L0
+05/09/17 10:09:38.219 : W No master data for material 399300C0
+05/09/17 10:09:38.219 : W No master data for material 399600C0
+05/09/17 10:09:38.220 : W No master data for material 399700C0
+05/09/17 10:09:38.221 : I 0 normal orders read from SAP
+05/09/17 10:09:38.222 : I 0 re-work orders read from SAP
+05/09/17 10:09:58.995 : I 905 materials read from SAP
+05/09/17 10:09:59.546 : I 158 normal orders read from SAP
+05/09/17 10:09:59.556 : I 0 re-work orders read from SAP
+05/09/17 10:10:08.548 : I 905 materials read from SAP
+05/09/17 10:10:09.335 : I 158 normal orders read from SAP
+05/09/17 10:10:09.336 : I 0 re-work orders read from SAP
+05/09/17 10:10:19.517 : I Material 321800F0 tare set to 0.681
+05/09/17 10:12:25.902 : I Packed material 321800F0 barcode 0000000000800000005911 weight 14.319
+05/09/17 10:14:16.327 : I Material 321800F0 tare set to 0.681
+05/09/17 10:14:18.017 : I Packed material 321800F0 barcode 0000000000800000006911 weight 14.319
+05/09/17 10:14:32.491 : I Material 321800F0 tare set to 0.681
+05/09/17 10:14:33.976 : I Packed material 321800F0 barcode 0000000000800000007911 weight 14.319
+05/09/17 10:14:42.926 : I Material 321800F0 tare set to 0.681
+05/09/17 10:14:44.634 : I Packed material 321800F0 barcode 0000000000800000008911 weight 14.319
+05/09/17 10:15:02.740 : I Material 321800F0 tare set to 0.681
+05/09/17 10:15:04.308 : I Packed material 321800F0 barcode 0000000000800000009911 weight 14.319
+05/09/17 10:15:25.586 : I Material 321800F0 tare set to 0.681
+05/09/17 10:15:27.767 : I Packed material 321800F0 barcode 0000000000800000010911 weight 14.319
+05/09/17 10:15:40.996 : I Material 321800F0 tare set to 0.681
+05/09/17 10:15:43.472 : I Packed material 321800F0 barcode 0000000000800000011911 weight 14.319
+05/09/17 10:25:14.730 : I 905 materials read from SAP
+05/09/17 10:25:15.574 : I 158 normal orders read from SAP
+05/09/17 10:25:15.584 : I 0 re-work orders read from SAP
+05/09/17 10:25:18.716 : I Material 321800F0 tare set to 0.681
+05/09/17 10:25:21.809 : I Packed material 321800F0 barcode 00000000001911 weight 14.319
+05/09/17 10:25:34.028 : I Material 321800F0 tare set to 0.681
+05/09/17 10:25:35.158 : I Packed material 321800F0 barcode 00000000002911 weight 14.319
+05/09/17 10:25:44.714 : I Material 321800F0 tare set to 0.681
+05/09/17 10:25:46.010 : I Packed material 321800F0 barcode 00000000003911 weight 14.319
+05/09/17 10:25:54.393 : I Material 321800F0 tare set to 0.681
+05/09/17 10:25:55.322 : I Packed material 321800F0 barcode 00000000004911 weight 14.319
+05/09/17 10:26:03.755 : I Material 321800F0 tare set to 0.681
+05/09/17 10:26:04.946 : I Packed material 321800F0 barcode 00000000005911 weight 14.319
+05/09/17 10:26:13.891 : I Material 321800F0 tare set to 0.681
+05/09/17 10:26:15.243 : I Packed material 321800F0 barcode 00000000006911 weight 14.319
+05/09/17 10:26:24.319 : I Material 321800F0 tare set to 0.681
+05/09/17 10:26:26.007 : I Packed material 321800F0 barcode 00000000007911 weight 14.319
+05/09/17 10:26:38.114 : I Material 321800F0 tare set to 0.681
+05/09/17 10:26:39.364 : I Packed material 321800F0 barcode 00000000008911 weight 14.319
+05/09/17 10:45:32.590 : I 905 materials read from DB
+05/09/17 10:45:32.609 : I 158 normal orders read from DB
+05/09/17 10:45:32.619 : I 0 re-work orders read from DB

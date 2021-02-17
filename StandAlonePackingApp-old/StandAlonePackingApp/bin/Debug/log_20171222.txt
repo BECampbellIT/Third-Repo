@@ -1,0 +1,50 @@
+12/22/17 15:35:03.141 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/22/17 15:35:09.536 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/22/17 15:35:09.751 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/22/17 15:35:22.242 : I 4378 materials read from SAP
+12/22/17 15:35:24.018 : I 1 normal orders read from SAP
+12/22/17 15:35:24.085 : I 0 re-work orders read from SAP
+12/22/17 15:35:26.698 : I Material 341700J0 tare set to 0.592
+12/22/17 15:35:30.744 : I Packed material 341700J0 barcode 810000221 weight 14.408
+12/22/17 15:35:30.765 : I Material 341700J0 tare set to 0.592
+12/22/17 15:35:31.744 : I Material 341700J0 tare set to 0.592
+12/22/17 15:35:32.817 : I Packed material 341700J0 barcode 810000222 weight 14.408
+12/22/17 15:35:32.835 : I Material 341700J0 tare set to 0.592
+12/22/17 15:35:33.720 : I Material 341700J0 tare set to 0.592
+12/22/17 15:35:34.614 : I Packed material 341700J0 barcode 810000223 weight 14.408
+12/22/17 15:35:34.634 : I Material 341700J0 tare set to 0.592
+12/22/17 15:35:36.091 : I Packed material 341700J0 barcode 810000224 weight 14.408
+12/22/17 15:35:36.101 : I Material 341700J0 tare set to 0.592
+12/22/17 15:35:36.780 : I Packed material 341700J0 barcode 810000225 weight 14.408
+12/22/17 15:35:36.800 : I Material 341700J0 tare set to 0.592
+12/22/17 15:35:37.492 : I Packed material 341700J0 barcode 810000226 weight 14.408
+12/22/17 15:35:37.502 : I Material 341700J0 tare set to 0.592
+12/22/17 15:35:38.241 : I Packed material 341700J0 barcode 810000227 weight 14.408
+12/22/17 15:35:38.263 : I Material 341700J0 tare set to 0.592
+12/22/17 15:35:38.994 : I Packed material 341700J0 barcode 810000228 weight 14.408
+12/22/17 15:35:39.012 : I Material 341700J0 tare set to 0.592
+12/22/17 15:35:39.470 : I Packed material 341700J0 barcode 810000229 weight 14.408
+12/22/17 15:35:39.488 : I Material 341700J0 tare set to 0.592
+12/22/17 15:35:45.718 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/22/17 15:35:51.876 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/22/17 15:35:51.993 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/22/17 15:35:52.726 : I 4378 materials read from SAP
+12/22/17 15:36:36.634 : I Flagging carton 810000221 OK
+12/22/17 15:36:36.709 : I Flagging carton 810000222 OK
+12/22/17 15:36:36.764 : I Flagging carton 810000223 OK
+12/22/17 15:36:36.872 : I Flagging carton 810000224 OK
+12/22/17 15:36:36.982 : I Flagging carton 810000225 OK
+12/22/17 15:36:37.092 : I Flagging carton 810000226 OK
+12/22/17 15:36:37.200 : I Flagging carton 810000227 OK
+12/22/17 15:36:37.309 : I Flagging carton 810000228 OK
+12/22/17 15:36:37.454 : I Flagging carton 810000229 OK
+12/22/17 15:36:37.783 : I 1 normal orders read from SAP
+12/22/17 15:36:37.859 : I 0 re-work orders read from SAP

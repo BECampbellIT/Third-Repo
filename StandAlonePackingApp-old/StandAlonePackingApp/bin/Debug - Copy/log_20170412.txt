@@ -1,0 +1,18 @@
+04/12/17 15:08:10.315 : I 905 materials read from DB
+04/12/17 15:08:10.471 : I 0 normal orders read from DB
+04/12/17 15:08:10.480 : I 0 re-work orders read from DB
+04/12/17 15:08:46.613 : I 905 materials read from DB
+04/12/17 15:08:46.623 : I 0 normal orders read from DB
+04/12/17 15:08:46.632 : I 0 re-work orders read from DB
+04/12/17 15:09:06.136 : I 905 materials read from DB
+04/12/17 15:09:06.145 : I 0 normal orders read from DB
+04/12/17 15:09:06.155 : I 0 re-work orders read from DB
+04/12/17 15:09:22.216 : E No packing dates maintained
+04/12/17 15:09:29.015 : I Re-work mode selected
+04/12/17 15:09:32.047 : I Normal Packing mode selected
+04/12/17 15:10:01.141 : I 905 materials read from DB
+04/12/17 15:10:01.151 : I 0 normal orders read from DB
+04/12/17 15:10:01.160 : I 0 re-work orders read from DB
+04/12/17 15:11:21.105 : I 905 materials read from DB
+04/12/17 15:11:21.124 : I 0 normal orders read from DB
+04/12/17 15:11:21.134 : I 0 re-work orders read from DB

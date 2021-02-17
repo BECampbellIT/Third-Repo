@@ -1,0 +1,13 @@
+12/18/17 17:46:34.145 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/18/17 17:46:46.623 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/18/17 17:46:53.916 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/18/17 17:46:54.296 : I Listening to address 172.16.100.40, port 5001 for inter-station comms
+12/18/17 17:46:54.306 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/18/17 17:47:19.050 : I 4378 materials read from SAP
+12/18/17 17:47:21.144 : I 0 normal orders read from SAP
+12/18/17 17:47:21.219 : I 0 re-work orders read from SAP
+12/18/17 17:47:33.693 : I Normal Packing mode selected

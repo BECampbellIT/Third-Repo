@@ -1,0 +1,150 @@
+05/04/17 8:51:24.293 : I 905 materials read from SAP
+05/04/17 8:51:24.701 : I 0 normal orders read from SAP
+05/04/17 8:51:24.710 : I 0 re-work orders read from SAP
+05/04/17 14:52:39.200 : I 905 materials read from SAP
+05/04/17 14:52:39.478 : I 0 normal orders read from SAP
+05/04/17 14:52:39.489 : I 0 re-work orders read from SAP
+05/04/17 14:53:58.917 : I 905 materials read from SAP
+05/04/17 14:53:59.174 : I 0 normal orders read from SAP
+05/04/17 14:53:59.176 : I 0 re-work orders read from SAP
+05/04/17 14:58:08.780 : I 905 materials read from SAP
+05/04/17 14:58:09.036 : I 0 normal orders read from SAP
+05/04/17 14:58:09.047 : I 0 re-work orders read from SAP
+05/04/17 14:59:59.382 : I 905 materials read from SAP
+05/04/17 14:59:59.799 : I 0 normal orders read from SAP
+05/04/17 14:59:59.800 : I 0 re-work orders read from SAP
+05/04/17 15:01:01.980 : I 905 materials read from SAP
+05/04/17 15:01:02.319 : I 0 normal orders read from SAP
+05/04/17 15:01:02.319 : I 0 re-work orders read from SAP
+05/04/17 15:01:13.855 : I 905 materials read from SAP
+05/04/17 15:01:14.085 : I 0 normal orders read from SAP
+05/04/17 15:01:14.095 : I 0 re-work orders read from SAP
+05/04/17 15:02:29.056 : I 905 materials read from SAP
+05/04/17 15:02:29.405 : I 0 normal orders read from SAP
+05/04/17 15:02:29.415 : I 0 re-work orders read from SAP
+05/04/17 15:02:43.416 : I 905 materials read from SAP
+05/04/17 15:02:43.792 : I 0 normal orders read from SAP
+05/04/17 15:02:43.802 : I 0 re-work orders read from SAP
+05/04/17 15:03:43.761 : I 905 materials read from SAP
+05/04/17 15:03:45.251 : I 5 normal orders read from SAP
+05/04/17 15:03:45.261 : I 0 re-work orders read from SAP
+05/04/17 15:03:50.595 : I 905 materials read from SAP
+05/04/17 15:03:51.029 : I 10 normal orders read from SAP
+05/04/17 15:03:51.039 : I 0 re-work orders read from SAP
+05/04/17 15:04:13.345 : I Material 311400J0 tare set to 0.39
+05/04/17 15:04:15.500 : I Packed material 311400J0 barcode 400000068910 weight 14.61
+05/04/17 15:05:27.483 : I 905 materials read from SAP
+05/04/17 15:05:27.850 : I Flagging carton 400000068 OK
+05/04/17 15:05:27.860 : I Flagging carton 400000069 OK
+05/04/17 15:05:28.244 : I 158 normal orders read from SAP
+05/04/17 15:05:28.254 : I 0 re-work orders read from SAP
+05/04/17 15:08:02.488 : I 905 materials read from SAP
+05/04/17 15:08:02.821 : I Flagging carton 400000070 OK
+05/04/17 15:08:03.158 : I 158 normal orders read from SAP
+05/04/17 15:08:03.159 : I 0 re-work orders read from SAP
+05/04/17 15:08:05.159 : I Material 311400J0 tare set to 0.39
+05/04/17 15:10:40.298 : I 905 materials read from SAP
+05/04/17 15:10:40.704 : I Flagging carton 400000071 OK
+05/04/17 15:10:41.102 : I 158 normal orders read from SAP
+05/04/17 15:10:41.103 : I 0 re-work orders read from SAP
+05/04/17 15:10:43.524 : I Material 311400J0 tare set to 0.39
+05/04/17 15:14:01.763 : I 905 materials read from SAP
+05/04/17 15:14:02.188 : I Flagging carton 400000072 OK
+05/04/17 15:14:02.605 : I 158 normal orders read from SAP
+05/04/17 15:14:02.605 : I 0 re-work orders read from SAP
+05/04/17 15:14:04.295 : I Material 311400J0 tare set to 0.39
+05/04/17 17:21:31.589 : I 905 materials read from SAP
+05/04/17 17:21:31.924 : I Flagging carton 400000073 OK
+05/04/17 17:21:32.229 : I 158 normal orders read from SAP
+05/04/17 17:21:32.240 : I 0 re-work orders read from SAP
+05/04/17 17:22:17.673 : I 905 materials read from SAP
+05/04/17 17:22:18.160 : I 158 normal orders read from SAP
+05/04/17 17:22:18.170 : I 0 re-work orders read from SAP
+05/04/17 17:22:31.428 : I 905 materials read from DB
+05/04/17 17:22:31.751 : I 158 normal orders read from DB
+05/04/17 17:22:31.762 : I 0 re-work orders read from DB
+05/04/17 17:22:44.894 : I 905 materials read from DB
+05/04/17 17:22:44.916 : I 158 normal orders read from DB
+05/04/17 17:22:44.926 : I 0 re-work orders read from DB
+05/04/17 17:23:01.453 : I 905 materials read from DB
+05/04/17 17:23:01.479 : I 158 normal orders read from DB
+05/04/17 17:23:01.488 : I 0 re-work orders read from DB
+05/04/17 17:26:48.699 : I 905 materials read from DB
+05/04/17 17:26:48.730 : I 158 normal orders read from DB
+05/04/17 17:26:48.740 : I 0 re-work orders read from DB
+05/04/17 17:27:44.979 : I Material 311400J0 tare set to 0.390
+05/04/17 17:28:11.019 : I Packed material 311400J0 barcode 400000078910 weight 14.610
+05/04/17 17:28:11.148 : I Material 311400J0 tare set to 0.390
+05/04/17 17:28:21.441 : I Packed material 311400J0 barcode 400000079910 weight 14.610
+05/04/17 17:28:43.076 : I Material 311400J0 tare set to 0.390
+05/04/17 17:28:43.905 : I Material 311400J0 tare set to 0.390
+05/04/17 17:28:48.118 : I Material 310800F0 tare set to 0.681
+05/04/17 17:28:48.484 : I Material 311400J0 tare set to 0.390
+05/04/17 17:29:10.420 : I Packed material 311400J0 barcode 400000082910 weight 14.610
+05/04/17 17:32:24.962 : I 905 materials read from DB
+05/04/17 17:32:25.501 : I 158 normal orders read from DB
+05/04/17 17:32:25.511 : I 0 re-work orders read from DB
+05/04/17 17:32:50.428 : I 905 materials read from DB
+05/04/17 17:32:50.450 : I 158 normal orders read from DB
+05/04/17 17:32:50.461 : I 0 re-work orders read from DB
+05/04/17 17:33:12.554 : I Material 311400J0 tare set to 0.390
+05/04/17 17:33:15.032 : I Packed material 311400J0 barcode 400000085910 weight 14.610
+05/04/17 17:33:16.900 : I Material 311400J0 tare set to 0.390
+05/04/17 17:33:19.097 : I Packed material 311400J0 barcode 400000086910 weight 14.610
+05/04/17 17:34:17.089 : I 905 materials read from DB
+05/04/17 17:34:17.109 : I 158 normal orders read from DB
+05/04/17 17:34:17.130 : I 0 re-work orders read from DB
+05/04/17 17:34:40.814 : I 905 materials read from DB
+05/04/17 17:34:40.867 : I 158 normal orders read from DB
+05/04/17 17:34:40.879 : I 0 re-work orders read from DB
+05/04/17 17:34:49.498 : I Material 311400J0 tare set to 0.390
+05/04/17 17:34:50.878 : I Packed material 311400J0 barcode 400000088910 weight 14.610
+05/04/17 17:34:55.310 : I Material 311400J0 tare set to 0.390
+05/04/17 17:34:56.113 : I Packed material 311400J0 barcode 400000090910 weight 14.610
+05/04/17 17:35:05.331 : I Material 311400J0 tare set to 0.390
+05/04/17 17:35:06.682 : I Packed material 311400J0 barcode 400000092910 weight 14.610
+05/04/17 17:35:11.533 : I Material 311400J0 tare set to 0.390
+05/04/17 17:35:12.588 : I Packed material 311400J0 barcode 400000094910 weight 14.610
+05/04/17 17:39:22.540 : I 905 materials read from DB
+05/04/17 17:39:22.559 : I 158 normal orders read from DB
+05/04/17 17:39:22.570 : I 0 re-work orders read from DB
+05/04/17 17:39:25.367 : I Material 311400J0 tare set to 0.390
+05/04/17 17:39:26.797 : I Packed material 311400J0 barcode 400000095910 weight 14.610
+05/04/17 17:39:28.355 : I Material 311400J0 tare set to 0.390
+05/04/17 17:39:29.381 : I Packed material 311400J0 barcode 400000096910 weight 14.610
+05/04/17 17:39:35.932 : I Material 311400J0 tare set to 0.390
+05/04/17 17:39:40.905 : I Packed material 311400J0 barcode 400000098910 weight 14.610
+05/04/17 17:39:52.378 : I Material 311400J0 tare set to 0.390
+05/04/17 17:39:55.468 : I Packed material 311400J0 barcode 400000100910 weight 14.610
+05/04/17 17:42:17.571 : I 905 materials read from DB
+05/04/17 17:42:17.599 : I 158 normal orders read from DB
+05/04/17 17:42:17.610 : I 0 re-work orders read from DB
+05/04/17 17:42:28.965 : I 905 materials read from DB
+05/04/17 17:42:28.987 : I 158 normal orders read from DB
+05/04/17 17:42:28.998 : I 0 re-work orders read from DB
+05/04/17 17:42:30.482 : I Material 311400J0 tare set to 0.390
+05/04/17 17:42:32.968 : I Packed material 311400J0 barcode 400000101910 weight 14.610
+05/04/17 17:43:29.815 : I 905 materials read from DB
+05/04/17 17:43:29.969 : I 158 normal orders read from DB
+05/04/17 17:43:30.053 : I 0 re-work orders read from DB
+05/04/17 17:43:39.841 : I 905 materials read from DB
+05/04/17 17:43:39.868 : I 158 normal orders read from DB
+05/04/17 17:43:39.879 : I 0 re-work orders read from DB
+05/04/17 17:47:24.117 : I 905 materials read from DB
+05/04/17 17:47:24.152 : I 158 normal orders read from DB
+05/04/17 17:47:24.165 : I 0 re-work orders read from DB
+05/04/17 17:47:54.415 : I 905 materials read from DB
+05/04/17 17:47:54.440 : I 158 normal orders read from DB
+05/04/17 17:47:54.449 : I 0 re-work orders read from DB
+05/04/17 17:48:24.347 : I 905 materials read from DB
+05/04/17 17:48:24.369 : I 158 normal orders read from DB
+05/04/17 17:48:24.380 : I 0 re-work orders read from DB
+05/04/17 17:50:48.572 : I 905 materials read from DB
+05/04/17 17:50:48.605 : I 158 normal orders read from DB
+05/04/17 17:50:48.615 : I 0 re-work orders read from DB
+05/04/17 17:52:02.968 : I 905 materials read from DB
+05/04/17 17:52:08.265 : I 158 normal orders read from DB
+05/04/17 17:52:08.275 : I 0 re-work orders read from DB
+05/04/17 17:52:25.620 : I 905 materials read from DB
+05/04/17 17:52:25.642 : I 158 normal orders read from DB
+05/04/17 17:52:25.652 : I 0 re-work orders read from DB

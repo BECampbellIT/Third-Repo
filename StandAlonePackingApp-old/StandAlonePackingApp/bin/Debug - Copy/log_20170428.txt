@@ -1,0 +1,45 @@
+04/28/17 9:23:51.513 : I 905 materials read from DB
+04/28/17 9:23:51.551 : I 0 normal orders read from DB
+04/28/17 9:23:51.552 : I 0 re-work orders read from DB
+04/28/17 9:25:34.522 : I 905 materials read from DB
+04/28/17 9:25:34.530 : I 0 normal orders read from DB
+04/28/17 9:25:34.531 : I 0 re-work orders read from DB
+04/28/17 9:26:07.532 : I 905 materials read from DB
+04/28/17 9:26:07.550 : I 158 normal orders read from DB
+04/28/17 9:26:07.550 : I 0 re-work orders read from DB
+04/28/17 9:26:12.813 : I Material 320300C0 tare set to 0.764
+04/28/17 9:26:17.432 : I Packed material 320300C0 barcode 400000050910 weight 27.336
+04/28/17 9:26:21.809 : I Material 321800F0 tare set to 0.681
+04/28/17 9:26:23.620 : I Packed material 321800F0 barcode 400000051911 weight 27.419
+04/28/17 9:26:28.041 : I Material 341500J0 tare set to 0.750
+04/28/17 9:26:29.411 : I Packed material 341500J0 barcode 400000052910 weight 27.350
+04/28/17 9:29:38.798 : I Deletion mode selected
+04/28/17 9:29:45.085 : I Barcode 400000052910 Material 341500J0 Weight 27.350 cancelled
+04/28/17 9:29:50.246 : I Normal Packing mode selected
+04/28/17 11:17:07.183 : I Material 324000C0 tare set to 0.750
+04/28/17 11:18:42.004 : I 905 materials read from DB
+04/28/17 11:18:42.026 : I 158 normal orders read from DB
+04/28/17 11:18:42.027 : I 0 re-work orders read from DB
+04/28/17 11:18:45.243 : I Material 324000C0 tare set to 0.750
+04/28/17 11:18:48.060 : I Packed material 324000C0 barcode 400000053910 weight 27.330
+04/28/17 11:19:42.894 : I Deletion mode selected
+04/28/17 11:20:20.524 : I Barcode 400000053910 Material 324000C0 Weight 27.330 cancelled
+04/28/17 11:32:58.234 : I 905 materials read from DB
+04/28/17 11:32:58.255 : I 158 normal orders read from DB
+04/28/17 11:32:58.265 : I 0 re-work orders read from DB
+04/28/17 11:33:02.719 : I Material 324000C0 tare set to 0.750
+04/28/17 11:33:05.985 : I Packed material 324000C0 barcode 400000054910 weight 27.330
+04/28/17 11:33:09.159 : I Deletion mode selected
+04/28/17 11:33:24.052 : I Barcode 400000054910 Material 324000C0 Weight 27.330 cancelled
+04/28/17 11:33:30.489 : I Normal Packing mode selected
+04/28/17 12:16:43.699 : I 905 materials read from DB
+04/28/17 12:16:43.766 : I 158 normal orders read from DB
+04/28/17 12:16:43.771 : I 0 re-work orders read from DB
+04/28/17 12:16:46.516 : I Material 327100F0 tare set to 0.694
+04/28/17 12:16:48.057 : E Stable weight not returned from scale
+04/28/17 12:17:24.612 : I 905 materials read from DB
+04/28/17 12:17:24.633 : I 158 normal orders read from DB
+04/28/17 12:17:24.643 : I 0 re-work orders read from DB
+04/28/17 12:17:46.965 : I 905 materials read from DB
+04/28/17 12:17:46.986 : I 158 normal orders read from DB
+04/28/17 12:17:46.996 : I 0 re-work orders read from DB

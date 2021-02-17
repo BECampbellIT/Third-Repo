@@ -1,0 +1,18 @@
+30/03/2017 5:06:26 PM : I 905 materials read from DB
+30/03/2017 5:06:32 PM : I 158 normal orders read from SAP
+30/03/2017 5:06:32 PM : I 0 re-work orders read from SAP
+30/03/2017 5:07:21 PM : I 905 materials read from DB
+30/03/2017 5:07:22 PM : I 158 normal orders read from SAP
+30/03/2017 5:07:22 PM : I 0 re-work orders read from SAP
+30/03/2017 5:09:55 PM : I 905 materials read from DB
+30/03/2017 5:09:56 PM : I 158 normal orders read from SAP
+30/03/2017 5:09:56 PM : I 0 re-work orders read from SAP
+30/03/2017 5:10:39 PM : E Error sending packs to SAP System.InvalidOperationException: Nested transactions are not supported.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction(IsolationLevel iso)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction()
+   at StandAlonePackingLib.Pack.SendPacks() in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Pack.cs:line 173
+30/03/2017 5:15:08 PM : I 905 materials read from DB
+30/03/2017 5:15:09 PM : I 158 normal orders read from SAP
+30/03/2017 5:15:09 PM : I 0 re-work orders read from SAP

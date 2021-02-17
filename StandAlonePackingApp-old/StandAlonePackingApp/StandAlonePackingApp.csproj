@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC837734-ACB7-470E-9CFA-B33CDDBD662F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StandAlonePackingApp</RootNamespace>
+    <AssemblyName>StandAlonePackingApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SAPA Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionsScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActionsScreen.Designer.cs">
+      <DependentUpon>ActionsScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseOrderForBinDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseOrderForBinDialog.Designer.cs">
+      <DependentUpon>ChooseOrderForBinDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusyDialog.Designer.cs">
+      <DependentUpon>BusyDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseReworkDateDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseReworkDateDialog.Designer.cs">
+      <DependentUpon>ChooseReworkDateDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseModeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseModeDialog.Designer.cs">
+      <DependentUpon>ChooseModeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageAdmin\EditImageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageAdmin\EditImageDialog.Designer.cs">
+      <DependentUpon>EditImageDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterStationComms.cs" />
+    <Compile Include="ImageAdmin\ImagesAdminDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageAdmin\ImagesAdminDialog.Designer.cs">
+      <DependentUpon>ImagesAdminDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageAdmin\PrinterImage.cs" />
+    <Compile Include="ImageAdmin\PermanentLogDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageAdmin\PermanentLogDialog.Designer.cs">
+      <DependentUpon>PermanentLogDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserAdmin\User.cs" />
+    <Compile Include="UserAdmin\ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAdmin\ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserAdmin\CreateNewUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAdmin\CreateNewUserForm.Designer.cs">
+      <DependentUpon>CreateNewUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserAdmin\EditUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAdmin\EditUserForm.Designer.cs">
+      <DependentUpon>EditUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserAdmin\LogonScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAdmin\LogonScreen.Designer.cs">
+      <DependentUpon>LogonScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainScreen.Designer.cs">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingsScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsScreen.Designer.cs">
+      <DependentUpon>SettingsScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TareWeightForBinDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TareWeightForBinDialog.Designer.cs">
+      <DependentUpon>TareWeightForBinDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThisApp.cs" />
+    <Compile Include="UserAdmin\UserAdminScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAdmin\UserAdminScreen.Designer.cs">
+      <DependentUpon>UserAdminScreen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActionsScreen.resx">
+      <DependentUpon>ActionsScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseOrderForBinDialog.resx">
+      <DependentUpon>ChooseOrderForBinDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusyDialog.resx">
+      <DependentUpon>BusyDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseReworkDateDialog.resx">
+      <DependentUpon>ChooseReworkDateDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseModeDialog.resx">
+      <DependentUpon>ChooseModeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageAdmin\EditImageDialog.resx">
+      <DependentUpon>EditImageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageAdmin\ImagesAdminDialog.resx">
+      <DependentUpon>ImagesAdminDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageAdmin\PermanentLogDialog.resx">
+      <DependentUpon>PermanentLogDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAdmin\ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAdmin\CreateNewUserForm.resx">
+      <DependentUpon>CreateNewUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAdmin\EditUserForm.resx">
+      <DependentUpon>EditUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAdmin\LogonScreen.resx">
+      <DependentUpon>LogonScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainScreen.resx">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SettingsScreen.resx">
+      <DependentUpon>SettingsScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TareWeightForBinDialog.resx">
+      <DependentUpon>TareWeightForBinDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAdmin\UserAdminScreen.resx">
+      <DependentUpon>UserAdminScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\ShopFloorLib.NumericKeypad.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SAPA Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShopFloorLib\ShopFloorLib.csproj">
+      <Project>{B4E44D52-FE27-4378-9E93-54F7DEA0C363}</Project>
+      <Name>ShopFloorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StandAlonePackingLib\StandAlonePackingLib.csproj">
+      <Project>{aef03fd3-259c-4568-8057-da60cfbeb10f}</Project>
+      <Name>StandAlonePackingLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

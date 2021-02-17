@@ -1,0 +1,49 @@
+05/02/17 11:13:20.520 : I 905 materials read from DB
+05/02/17 11:13:23.936 : I 32 normal orders read from SAP
+05/02/17 11:13:23.945 : I 0 re-work orders read from SAP
+05/02/17 11:13:39.730 : I 905 materials read from DB
+05/02/17 11:13:40.368 : I 75 normal orders read from SAP
+05/02/17 11:13:40.379 : I 0 re-work orders read from SAP
+05/02/17 11:14:22.143 : I Material 323400J0 tare set to 0.626
+05/02/17 11:51:34.862 : I 905 materials read from DB
+05/02/17 11:51:35.255 : I 158 normal orders read from SAP
+05/02/17 11:51:35.266 : I 0 re-work orders read from SAP
+05/02/17 11:52:13.124 : I Material 310800F0 tare set to 0.681
+05/02/17 11:52:17.627 : I Material 310800F0 tare set to 0.681
+05/02/17 11:52:18.988 : I Material 310500F0 tare set to 0.527
+05/02/17 16:52:46.595 : I 905 materials read from DB
+05/02/17 16:52:47.657 : I 158 normal orders read from SAP
+05/02/17 16:52:47.657 : I 0 re-work orders read from SAP
+05/02/17 16:53:10.940 : I Deletion mode selected
+05/02/17 16:53:13.324 : I Normal Packing mode selected
+05/02/17 16:53:19.988 : I Re-work mode selected
+05/02/17 16:53:24.687 : I Part Carton mode selected
+05/02/17 16:53:26.871 : I Normal Packing mode selected
+05/02/17 16:53:28.848 : I Material 321800F0 tare set to 0.681
+05/02/17 17:05:01.462 : I 905 materials read from DB
+05/02/17 17:05:02.369 : I 905 materials read from SAP
+05/02/17 17:05:10.595 : I 158 normal orders read from SAP
+05/02/17 17:05:10.598 : I 0 re-work orders read from SAP
+05/02/17 17:06:15.045 : I 905 materials read from DB
+05/02/17 17:06:15.938 : I 905 materials read from SAP
+05/02/17 17:06:21.399 : I 158 normal orders read from SAP
+05/02/17 17:06:21.401 : I 0 re-work orders read from SAP
+05/02/17 17:06:25.624 : I 905 materials read from SAP
+05/02/17 17:33:59.922 : I 905 materials read from DB
+05/02/17 17:34:00.280 : I 905 materials read from SAP
+05/02/17 17:34:57.184 : I 905 materials read from DB
+05/02/17 17:34:58.052 : I 905 materials read from SAP
+05/02/17 17:35:31.888 : I 905 materials read from DB
+05/02/17 17:35:32.720 : I 158 normal orders read from SAP
+05/02/17 17:35:32.720 : I 0 re-work orders read from SAP
+05/02/17 17:38:17.695 : I 905 materials read from DB
+05/02/17 17:38:18.058 : I 158 normal orders read from SAP
+05/02/17 17:38:18.069 : I 0 re-work orders read from SAP
+05/02/17 17:38:33.212 : I Part Carton mode selected
+05/02/17 17:38:34.978 : I Normal Packing mode selected
+05/02/17 17:38:37.326 : I Re-work mode selected
+05/02/17 17:38:38.857 : I Normal Packing mode selected
+05/02/17 17:38:43.459 : I Re-work mode selected
+05/02/17 17:39:06.711 : I Re-work mode selected
+05/02/17 17:39:08.451 : I Normal Packing mode selected
+05/02/17 17:39:10.722 : I 905 materials read from DB

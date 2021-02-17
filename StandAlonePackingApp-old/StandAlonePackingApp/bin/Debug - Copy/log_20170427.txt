@@ -1,0 +1,71 @@
+04/27/17 14:18:27.695 : I 905 materials read from DB
+04/27/17 14:18:27.755 : I 158 normal orders read from DB
+04/27/17 14:18:27.765 : I 0 re-work orders read from DB
+04/27/17 14:18:59.618 : I 905 materials read from DB
+04/27/17 14:18:59.638 : I 158 normal orders read from DB
+04/27/17 14:18:59.648 : I 0 re-work orders read from DB
+04/27/17 14:19:04.873 : I 905 materials read from DB
+04/27/17 14:19:04.893 : I 158 normal orders read from DB
+04/27/17 14:19:04.903 : I 0 re-work orders read from DB
+04/27/17 14:19:14.607 : I Material 310500F0 tare set to 0.527
+04/27/17 14:20:34.599 : E Weight (27.59 kg) is above the maximum weight of 16.19
+04/27/17 14:20:40.078 : I Material 310800F0 tare set to 0.681
+04/27/17 14:20:42.089 : E Weight (27.44 kg) is above the maximum weight of 20.20
+04/27/17 14:20:46.237 : I Material 311400J0 tare set to 0.390
+04/27/17 14:20:48.903 : I Packed material 311400J0 barcode 400000040910 weight 27.730
+04/27/17 14:22:20.442 : I Material 311400J0 tare set to 0.390
+04/27/17 14:23:45.460 : I Packed material 311400J0 barcode 400000041910 weight 27.730
+04/27/17 14:23:46.493 : I Material 311400J0 tare set to 0.390
+04/27/17 14:23:47.378 : I Packed material 311400J0 barcode 400000042910 weight 27.730
+04/27/17 14:23:47.758 : I Material 311400J0 tare set to 0.390
+04/27/17 14:23:48.419 : I Packed material 311400J0 barcode 400000043910 weight 27.730
+04/27/17 14:23:48.630 : I Material 311400J0 tare set to 0.390
+04/27/17 14:23:49.299 : I Packed material 311400J0 barcode 400000044910 weight 27.730
+04/27/17 14:23:49.422 : I Material 311400J0 tare set to 0.390
+04/27/17 14:23:49.981 : I Packed material 311400J0 barcode 400000045910 weight 27.730
+04/27/17 14:23:50.077 : I Material 311400J0 tare set to 0.390
+04/27/17 14:23:50.766 : I Packed material 311400J0 barcode 400000046910 weight 27.730
+04/27/17 14:23:51.003 : I Material 311400J0 tare set to 0.390
+04/27/17 14:23:51.540 : I Packed material 311400J0 barcode 400000047910 weight 27.730
+04/27/17 14:23:51.701 : I Material 311400J0 tare set to 0.390
+04/27/17 14:23:52.230 : I Packed material 311400J0 barcode 400000048910 weight 27.730
+04/27/17 14:23:52.550 : I Material 311400J0 tare set to 0.390
+04/27/17 14:23:53.193 : I Packed material 311400J0 barcode 400000049910 weight 27.730
+04/27/17 14:27:01.297 : I Normal Packing mode selected
+04/27/17 14:42:46.654 : I 905 materials read from DB
+04/27/17 14:42:46.674 : I 158 normal orders read from DB
+04/27/17 14:42:46.684 : I 0 re-work orders read from DB
+04/27/17 14:42:53.654 : I Deletion mode selected
+04/27/17 14:43:14.128 : I Barcode 400000049910 Material 311400J0 Weight 27.730 cancelled
+04/27/17 14:43:24.329 : I Normal Packing mode selected
+04/27/17 14:43:40.267 : I Deletion mode selected
+04/27/17 14:43:43.183 : I Normal Packing mode selected
+04/27/17 14:48:22.579 : I 905 materials read from DB
+04/27/17 14:48:22.596 : I 158 normal orders read from DB
+04/27/17 14:48:22.597 : I 0 re-work orders read from DB
+04/27/17 14:48:28.802 : I Deletion mode selected
+04/27/17 14:48:39.386 : I 905 materials read from DB
+04/27/17 14:48:39.403 : I 158 normal orders read from DB
+04/27/17 14:48:39.404 : I 0 re-work orders read from DB
+04/27/17 14:48:43.409 : I Deletion mode selected
+04/27/17 14:49:01.856 : I Barcode 400000049910 Material 311400J0 Weight 27.730 cancelled
+04/27/17 14:51:43.130 : I 905 materials read from DB
+04/27/17 14:51:43.147 : I 158 normal orders read from DB
+04/27/17 14:51:43.149 : I 0 re-work orders read from DB
+04/27/17 14:51:46.332 : I Deletion mode selected
+04/27/17 14:54:03.125 : I 905 materials read from DB
+04/27/17 14:54:03.143 : I 158 normal orders read from DB
+04/27/17 14:54:03.144 : I 0 re-work orders read from DB
+04/27/17 14:54:05.647 : I Deletion mode selected
+04/27/17 14:56:43.675 : I 905 materials read from DB
+04/27/17 14:56:43.704 : I 158 normal orders read from DB
+04/27/17 14:56:43.711 : I 0 re-work orders read from DB
+04/27/17 14:58:41.730 : I 905 materials read from DB
+04/27/17 14:59:04.729 : I 158 normal orders read from DB
+04/27/17 14:59:04.731 : I 0 re-work orders read from DB
+04/27/17 14:59:13.665 : I Deletion mode selected
+04/27/17 15:01:08.968 : I 905 materials read from DB
+04/27/17 15:01:10.111 : I 158 normal orders read from DB
+04/27/17 15:01:10.113 : I 0 re-work orders read from DB
+04/27/17 15:01:14.194 : I Deletion mode selected
+04/27/17 15:01:25.081 : I Barcode 400000049910 Material 311400J0 Weight 27.730 cancelled

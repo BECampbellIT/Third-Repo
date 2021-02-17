@@ -1,0 +1,46 @@
+23/03/2017 2:13:41 PM : I 905 materials read from DB
+23/03/2017 2:13:41 PM : I 0 normal orders read from SAP
+23/03/2017 2:13:41 PM : I 0 re-work orders read from SAP
+23/03/2017 2:15:18 PM : I 905 materials read from DB
+23/03/2017 2:15:18 PM : I 0 normal orders read from SAP
+23/03/2017 2:15:18 PM : I 0 re-work orders read from SAP
+23/03/2017 2:15:18 PM : I 1
+23/03/2017 2:15:44 PM : I 905 materials read from SAP
+23/03/2017 2:15:44 PM : I 0 normal orders read from SAP
+23/03/2017 2:15:44 PM : I 0 re-work orders read from SAP
+23/03/2017 2:15:44 PM : I 1
+23/03/2017 2:15:44 PM : I 2
+23/03/2017 2:15:44 PM : I 3
+23/03/2017 2:15:44 PM : I 4
+23/03/2017 2:15:52 PM : I 905 materials read from SAP
+23/03/2017 2:15:53 PM : I 0 normal orders read from SAP
+23/03/2017 2:15:53 PM : I 0 re-work orders read from SAP
+23/03/2017 2:15:53 PM : I 1
+23/03/2017 2:15:53 PM : I 2
+23/03/2017 2:15:53 PM : I 3
+23/03/2017 2:15:53 PM : I 4
+23/03/2017 2:15:56 PM : I 905 materials read from SAP
+23/03/2017 2:15:56 PM : I 0 normal orders read from SAP
+23/03/2017 2:15:56 PM : I 0 re-work orders read from SAP
+23/03/2017 2:15:56 PM : I 1
+23/03/2017 2:15:57 PM : I 2
+23/03/2017 2:15:57 PM : I 3
+23/03/2017 2:15:57 PM : I 4
+23/03/2017 2:16:06 PM : I 905 materials read from DB
+23/03/2017 2:16:07 PM : I 0 normal orders read from SAP
+23/03/2017 2:16:07 PM : I 0 re-work orders read from SAP
+23/03/2017 2:16:07 PM : I 1
+23/03/2017 2:19:04 PM : I 905 materials read from DB
+23/03/2017 2:19:04 PM : I 0 normal orders read from SAP
+23/03/2017 2:19:04 PM : I 0 re-work orders read from SAP
+23/03/2017 2:19:04 PM : I 1
+23/03/2017 2:19:04 PM : I 2
+23/03/2017 2:19:04 PM : I 3
+23/03/2017 2:19:04 PM : I 4
+23/03/2017 2:19:12 PM : I 905 materials read from DB
+23/03/2017 2:19:12 PM : I 0 normal orders read from SAP
+23/03/2017 2:19:12 PM : I 0 re-work orders read from SAP
+23/03/2017 2:19:12 PM : I 1
+23/03/2017 2:19:12 PM : I 2
+23/03/2017 2:19:12 PM : I 3
+23/03/2017 2:19:12 PM : I 4

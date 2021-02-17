@@ -1,0 +1,457 @@
+12/08/17 9:32:08.752 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 9:33:48.041 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/08/17 9:33:48.157 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/08/17 9:33:48.306 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/08/17 9:33:49.807 : I 4378 materials read from SAP
+12/08/17 9:33:53.269 : I Flagging carton 810000219 OK
+12/08/17 9:33:53.393 : I Flagging carton 810000220 OK
+12/08/17 9:33:54.103 : I 75 normal orders read from SAP
+12/08/17 9:33:54.160 : I 0 re-work orders read from SAP
+12/08/17 9:33:57.385 : I Material 320400F0 tare set to 0.656
+12/08/17 9:33:58.948 : I Material 320400F0 tare set to 0.656
+12/08/17 9:33:59.578 : I Material 320400F0 tare set to 0.656
+12/08/17 9:33:59.749 : I Material 320400F0 tare set to 0.656
+12/08/17 9:33:59.932 : I Material 320400F0 tare set to 0.656
+12/08/17 9:34:00.289 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:00.781 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:01.021 : I Material 320400F0 tare set to 0.656
+12/08/17 9:34:01.313 : I Material 320600F0 tare set to 0.656
+12/08/17 9:34:01.554 : I Material 320002F0 tare set to 0.656
+12/08/17 9:34:01.794 : I Material 310800FE tare set to 0.656
+12/08/17 9:34:02.007 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:02.235 : I Material 310600D0 tare set to 0.574
+12/08/17 9:34:02.706 : I Material 320400F0 tare set to 0.656
+12/08/17 9:34:02.933 : I Material 320500FE tare set to 0.656
+12/08/17 9:34:03.171 : I Material 320002F0 tare set to 0.656
+12/08/17 9:34:03.376 : I Material 310800FE tare set to 0.656
+12/08/17 9:34:03.609 : I Material 310800FE tare set to 0.656
+12/08/17 9:34:03.840 : I Material 30001C1 tare set to 0.1
+12/08/17 9:34:04.060 : I Material 310600D0 tare set to 0.574
+12/08/17 9:34:04.283 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:04.507 : I Material 320400F0 tare set to 0.656
+12/08/17 9:34:04.933 : I Material 320002F0 tare set to 0.656
+12/08/17 9:34:05.155 : I Material 320002F0 tare set to 0.656
+12/08/17 9:34:05.309 : I Material 320002F0 tare set to 0.656
+12/08/17 9:34:05.497 : I Material 310800FE tare set to 0.656
+12/08/17 9:34:05.676 : I Material 310800FE tare set to 0.656
+12/08/17 9:34:06.059 : I Material 310600D0 tare set to 0.574
+12/08/17 9:34:06.465 : I Material 320600F0 tare set to 0.656
+12/08/17 9:34:06.991 : I Material 310800FE tare set to 0.656
+12/08/17 9:34:07.167 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:07.357 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:07.530 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:07.696 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:07.868 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:08.034 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:08.204 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:08.362 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:08.558 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:08.701 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:08.886 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:09.067 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:09.225 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:09.507 : I Material 320400F0 tare set to 0.656
+12/08/17 9:34:09.707 : I Material 320002F0 tare set to 0.656
+12/08/17 9:34:10.101 : I Material 310800FE tare set to 0.656
+12/08/17 9:34:10.495 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:10.897 : I Material 320600F0 tare set to 0.656
+12/08/17 9:34:11.258 : I Material 310800FE tare set to 0.656
+12/08/17 9:34:11.456 : I Material 312200F0 tare set to 0.656
+12/08/17 9:34:13.197 : I Material 327700K0 tare set to 0.669
+12/08/17 9:34:13.782 : I Material 327702K0 tare set to 0.669
+12/08/17 9:34:14.102 : I Material 327702K0 tare set to 0.669
+12/08/17 9:34:14.334 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:14.591 : I Material 327700K0 tare set to 0.669
+12/08/17 9:34:15.360 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:15.546 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:15.734 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:15.899 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:16.069 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:16.237 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:16.412 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:16.570 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:16.738 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:17.085 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:17.245 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:17.419 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:17.613 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:17.795 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:17.978 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:18.179 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:18.355 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:18.547 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:18.730 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:18.924 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:19.100 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:19.282 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:19.485 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:19.652 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:19.836 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:20.023 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:20.212 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:20.402 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:20.603 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:20.789 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:20.980 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:21.181 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:21.371 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:21.564 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:21.746 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:21.930 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:22.122 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:22.330 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:22.516 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:22.700 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:22.893 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:23.090 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:23.276 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:23.466 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:23.652 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:23.836 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:24.071 : I Material 327702K0 tare set to 0.669
+12/08/17 9:34:24.311 : I Material 327602K0 tare set to 0.669
+12/08/17 9:34:24.508 : I Material 327700K0 tare set to 0.669
+12/08/17 9:34:24.946 : I Material 327600K0 tare set to 0.669
+12/08/17 9:34:25.386 : I Material 327200F0 tare set to 0.669
+12/08/17 9:34:25.804 : I Material 327700K0 tare set to 0.669
+12/08/17 9:34:26.021 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:26.604 : I Material 327300F0 tare set to 0.669
+12/08/17 9:34:27.123 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:27.371 : I Material 327700K0 tare set to 0.669
+12/08/17 9:34:27.814 : I Material 327702K0 tare set to 0.669
+12/08/17 9:34:27.984 : I Material 327602K0 tare set to 0.669
+12/08/17 9:34:28.186 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:28.608 : I Material 327700K0 tare set to 0.669
+12/08/17 9:34:28.824 : I Material 327600K0 tare set to 0.669
+12/08/17 9:34:29.539 : I Material 327200F0 tare set to 0.669
+12/08/17 9:34:29.775 : I Material 327300F0 tare set to 0.669
+12/08/17 9:34:30.167 : I Material 327602K0 tare set to 0.669
+12/08/17 9:34:30.892 : E Stable weight not returned from scale
+12/08/17 9:34:31.434 : E Stable weight not returned from scale
+12/08/17 9:34:31.618 : E Stable weight not returned from scale
+12/08/17 9:34:31.795 : E Stable weight not returned from scale
+12/08/17 9:34:31.980 : E Stable weight not returned from scale
+12/08/17 9:34:32.155 : E Stable weight not returned from scale
+12/08/17 9:34:32.340 : E Stable weight not returned from scale
+12/08/17 9:34:32.531 : E Stable weight not returned from scale
+12/08/17 9:34:32.716 : E Stable weight not returned from scale
+12/08/17 9:34:32.914 : E Stable weight not returned from scale
+12/08/17 9:34:33.106 : E Stable weight not returned from scale
+12/08/17 9:34:33.315 : E Stable weight not returned from scale
+12/08/17 9:34:33.498 : E Stable weight not returned from scale
+12/08/17 9:34:33.690 : E Stable weight not returned from scale
+12/08/17 9:34:33.882 : E Stable weight not returned from scale
+12/08/17 9:34:34.082 : E Stable weight not returned from scale
+12/08/17 9:34:34.257 : E Stable weight not returned from scale
+12/08/17 9:34:34.451 : E Stable weight not returned from scale
+12/08/17 9:34:34.643 : E Stable weight not returned from scale
+12/08/17 9:34:34.835 : E Stable weight not returned from scale
+12/08/17 9:34:35.020 : E Stable weight not returned from scale
+12/08/17 9:34:35.212 : E Stable weight not returned from scale
+12/08/17 9:34:35.395 : E Stable weight not returned from scale
+12/08/17 9:34:35.578 : E Stable weight not returned from scale
+12/08/17 9:34:35.770 : E Stable weight not returned from scale
+12/08/17 9:34:35.947 : E Stable weight not returned from scale
+12/08/17 9:34:36.140 : E Stable weight not returned from scale
+12/08/17 9:34:36.330 : E Stable weight not returned from scale
+12/08/17 9:34:36.515 : E Stable weight not returned from scale
+12/08/17 9:34:36.707 : E Stable weight not returned from scale
+12/08/17 9:34:36.891 : E Stable weight not returned from scale
+12/08/17 9:34:37.067 : E Stable weight not returned from scale
+12/08/17 9:34:37.248 : E Stable weight not returned from scale
+12/08/17 9:34:37.451 : E Stable weight not returned from scale
+12/08/17 9:34:37.635 : E Stable weight not returned from scale
+12/08/17 9:34:37.817 : E Stable weight not returned from scale
+12/08/17 9:34:38.010 : E Stable weight not returned from scale
+12/08/17 9:34:38.185 : E Stable weight not returned from scale
+12/08/17 9:34:38.402 : E Stable weight not returned from scale
+12/08/17 9:34:38.591 : E Stable weight not returned from scale
+12/08/17 9:34:38.947 : E Stable weight not returned from scale
+12/08/17 9:34:39.115 : E Stable weight not returned from scale
+12/08/17 9:34:39.307 : E Stable weight not returned from scale
+12/08/17 9:34:39.499 : E Stable weight not returned from scale
+12/08/17 9:34:39.691 : E Stable weight not returned from scale
+12/08/17 9:34:39.882 : E Stable weight not returned from scale
+12/08/17 9:34:40.057 : E Stable weight not returned from scale
+12/08/17 9:34:40.249 : E Stable weight not returned from scale
+12/08/17 9:34:40.433 : E Stable weight not returned from scale
+12/08/17 9:34:40.587 : E Stable weight not returned from scale
+12/08/17 9:34:40.876 : I Material 340900J0 tare set to 0.779
+12/08/17 9:34:41.309 : I Material 327700K0 tare set to 0.669
+12/08/17 9:34:41.523 : I Material 327602K0 tare set to 0.669
+12/08/17 9:34:41.774 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:41.975 : I Material 327600K0 tare set to 0.669
+12/08/17 9:34:42.423 : I Material 327700K0 tare set to 0.669
+12/08/17 9:34:42.971 : E Stable weight not returned from scale
+12/08/17 9:34:43.186 : E Stable weight not returned from scale
+12/08/17 9:34:43.378 : E Stable weight not returned from scale
+12/08/17 9:34:43.570 : E Stable weight not returned from scale
+12/08/17 9:34:43.765 : E Stable weight not returned from scale
+12/08/17 9:34:43.946 : E Stable weight not returned from scale
+12/08/17 9:34:44.100 : E Stable weight not returned from scale
+12/08/17 9:34:49.818 : I Material 327602K0 tare set to 0.669
+12/08/17 9:34:49.999 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:50.222 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:50.429 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:50.619 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:50.822 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:51.005 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:51.189 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:51.363 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:51.555 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:51.747 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:51.942 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:52.125 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:52.318 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:52.477 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:52.661 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:52.834 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:53.028 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:53.195 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:53.418 : I Material 327602K0 tare set to 0.669
+12/08/17 9:34:53.609 : I Material 327602K0 tare set to 0.669
+12/08/17 9:34:55.975 : I Material 327700K0 tare set to 0.669
+12/08/17 9:34:56.172 : I Material 327700K0 tare set to 0.669
+12/08/17 9:34:56.723 : I Material 327602K0 tare set to 0.669
+12/08/17 9:34:56.951 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:57.354 : I Material 327200F0 tare set to 0.669
+12/08/17 9:34:57.562 : I Material 327300F0 tare set to 0.669
+12/08/17 9:34:57.982 : I Material 327602K0 tare set to 0.669
+12/08/17 9:34:58.211 : I Material 327602K0 tare set to 0.669
+12/08/17 9:34:58.423 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:58.636 : I Material 327400FE tare set to 0.669
+12/08/17 9:34:58.849 : I Material 327200F0 tare set to 0.669
+12/08/17 9:34:59.075 : I Material 327200F0 tare set to 0.669
+12/08/17 9:34:59.263 : I Material 327600K0 tare set to 0.669
+12/08/17 9:34:59.474 : I Material 327700K0 tare set to 0.669
+12/08/17 9:34:59.706 : I Material 327702K0 tare set to 0.669
+12/08/17 9:34:59.902 : I Material 327602K0 tare set to 0.669
+12/08/17 9:35:00.113 : I Material 327400FE tare set to 0.669
+12/08/17 9:35:00.324 : I Material 327200F0 tare set to 0.669
+12/08/17 9:35:00.769 : I Material 327700K0 tare set to 0.669
+12/08/17 9:35:00.975 : I Material 327602K0 tare set to 0.669
+12/08/17 9:35:06.508 : E Stable weight not returned from scale
+12/08/17 9:35:06.762 : E Stable weight not returned from scale
+12/08/17 9:35:06.955 : E Stable weight not returned from scale
+12/08/17 9:35:07.123 : E Stable weight not returned from scale
+12/08/17 9:35:20.741 : I Material 340900J0 tare set to 0.779
+12/08/17 9:35:23.700 : I Material 371110J0 tare set to 0.623
+12/08/17 9:35:24.884 : E Stable weight not returned from scale
+12/08/17 9:35:33.355 : W Weight Tolerance Checking Disabled.
+12/08/17 9:35:33.397 : I Normal Packing mode selected
+12/08/17 9:35:41.810 : I Weight Tolerance Checking Re-enabled.
+12/08/17 9:35:41.814 : I Normal Packing mode selected
+12/08/17 9:35:48.758 : I Deletion mode selected
+12/08/17 9:35:53.083 : I Part Carton mode selected
+12/08/17 9:35:54.995 : I Re-work mode selected
+12/08/17 9:35:58.418 : W Weight Tolerance Checking Disabled.
+12/08/17 9:35:58.429 : I Re-work mode selected
+12/08/17 9:36:02.730 : I Normal Packing mode selected
+12/08/17 9:36:06.346 : I Weight Tolerance Checking Re-enabled.
+12/08/17 9:36:06.351 : I Normal Packing mode selected
+12/08/17 9:36:08.893 : E Stable weight not returned from scale
+12/08/17 9:36:08.898 : E Error printing Test Label
+12/08/17 9:36:08.904 : I Normal Packing mode selected
+12/08/17 9:37:57.483 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 9:38:02.463 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/08/17 9:38:02.581 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/08/17 9:38:02.701 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/08/17 9:38:03.526 : I 4378 materials read from SAP
+12/08/17 9:38:04.393 : I 75 normal orders read from SAP
+12/08/17 9:38:04.428 : I 0 re-work orders read from SAP
+12/08/17 9:38:16.654 : I Material 310600D0 tare set to 0.574
+12/08/17 9:38:17.219 : I Material 312200F0 tare set to 0.656
+12/08/17 9:38:18.099 : I Material 320400F0 tare set to 0.656
+12/08/17 9:38:18.662 : I Material 320600F0 tare set to 0.656
+12/08/17 9:38:19.312 : I Material 320600F0 tare set to 0.656
+12/08/17 9:38:20.037 : I Material 320600F0 tare set to 0.656
+12/08/17 9:38:20.212 : I Material 320600F0 tare set to 0.656
+12/08/17 9:38:20.389 : I Material 320600F0 tare set to 0.656
+12/08/17 9:38:20.568 : I Material 320600F0 tare set to 0.656
+12/08/17 9:38:20.748 : I Material 320600F0 tare set to 0.656
+12/08/17 9:38:20.919 : I Material 320600F0 tare set to 0.656
+12/08/17 9:38:29.954 : E No last carton to cancel
+12/08/17 9:38:29.963 : I Normal Packing mode selected
+12/08/17 9:38:36.896 : E No last carton to re-print
+12/08/17 9:38:36.916 : I Normal Packing mode selected
+12/08/17 9:38:44.539 : I Normal Packing mode selected
+12/08/17 9:40:57.054 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 9:41:03.099 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/08/17 9:41:03.210 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/08/17 9:41:03.329 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/08/17 9:41:04.120 : I 4378 materials read from SAP
+12/08/17 9:41:05.050 : I 75 normal orders read from SAP
+12/08/17 9:41:05.060 : I 0 re-work orders read from SAP
+12/08/17 9:41:11.399 : E Stable weight not returned from scale
+12/08/17 9:41:11.414 : E Error printing Test Label
+12/08/17 9:41:11.429 : I Normal Packing mode selected
+12/08/17 10:04:54.249 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:05:00.168 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/08/17 10:05:00.276 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/08/17 10:05:00.412 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/08/17 10:05:01.140 : I 4378 materials read from SAP
+12/08/17 10:05:02.110 : I 75 normal orders read from SAP
+12/08/17 10:05:02.130 : I 0 re-work orders read from SAP
+12/08/17 10:05:05.540 : I Normal Packing mode selected
+12/08/17 10:05:08.555 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:06:00.882 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:08:28.246 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:09:49.655 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:12:33.971 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:13:41.426 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:16:37.529 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:18:48.500 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:19:49.008 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:19:53.726 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/08/17 10:19:53.850 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/08/17 10:19:53.954 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/08/17 10:19:54.680 : I 4378 materials read from SAP
+12/08/17 10:19:55.679 : I 75 normal orders read from SAP
+12/08/17 10:19:55.708 : I 0 re-work orders read from SAP
+12/08/17 10:19:59.279 : I Normal Packing mode selected
+12/08/17 10:20:01.729 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:21:12.541 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:22:11.348 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:23:27.938 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:24:04.174 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:24:57.674 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:25:48.013 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:33:36.773 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:33:51.326 : CRITICAL Error reading log messages from DB MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at ShopFloorLib.PermanentLog.GetLogEntries(DateTime from, DateTime to) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\CustomCntrls\PermanentLog.cs:line 54
+12/08/17 10:36:21.559 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:36:34.002 : CRITICAL Error reading log messages from DB MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at ShopFloorLib.PermanentLog.GetLogEntries(DateTime from, DateTime to) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\CustomCntrls\PermanentLog.cs:line 54
+12/08/17 10:36:35.113 : CRITICAL Error reading log messages from DB MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at ShopFloorLib.PermanentLog.GetLogEntries(DateTime from, DateTime to) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\CustomCntrls\PermanentLog.cs:line 54
+12/08/17 10:36:47.406 : CRITICAL Error reading log messages from DB MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at ShopFloorLib.PermanentLog.GetLogEntries(DateTime from, DateTime to) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\CustomCntrls\PermanentLog.cs:line 54
+12/08/17 10:36:47.906 : CRITICAL Error reading log messages from DB MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at ShopFloorLib.PermanentLog.GetLogEntries(DateTime from, DateTime to) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\CustomCntrls\PermanentLog.cs:line 54
+12/08/17 10:36:48.802 : CRITICAL Error reading log messages from DB MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at ShopFloorLib.PermanentLog.GetLogEntries(DateTime from, DateTime to) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\CustomCntrls\PermanentLog.cs:line 54
+12/08/17 10:37:48.637 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:46:30.284 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:47:43.652 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:50:36.684 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:51:52.328 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 10:58:46.154 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 12:09:36.263 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 12:14:59.879 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 12:21:04.951 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 13:58:28.626 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 13:59:59.525 : Permanent log Image WP AI Stamp Domestic removed from printer by asasd
+12/08/17 14:00:03.787 : Permanent log Image WP AI Stamp Domestic locked by asasd
+12/08/17 14:01:43.102 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 14:01:52.601 : Permanent log Image WP AI Stamp Export unlocked by Esteemed AQIS Officer of the Crown
+12/08/17 14:02:07.268 : Permanent log Image WP AI Stamp Export locked by Esteemed AQIS Officer of the Crown
+12/08/17 14:02:18.660 : Permanent log Image WP AI Stamp Domestic unlocked by Esteemed AQIS Officer of the Crown
+12/08/17 14:02:20.936 : Permanent log Image WP AI Stamp Export unlocked by Esteemed AQIS Officer of the Crown
+12/08/17 14:02:32.852 : Permanent log Image WP AI Stamp Export locked by Esteemed AQIS Officer of the Crown
+12/08/17 14:02:36.288 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 14:02:48.773 : Permanent log Image WP AI Stamp Domestic sent to printer by Q/A Officer
+12/08/17 14:02:56.891 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 14:03:04.137 : Permanent log Image WP AI Stamp Export unlocked by Esteemed AQIS Officer of the Crown
+12/08/17 14:03:11.354 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 14:03:21.536 : Permanent log Image WP AI Stamp Export sent to printer by Q/A Officer
+12/08/17 14:03:45.616 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 14:03:51.892 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/08/17 14:03:51.923 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/08/17 14:03:52.103 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/08/17 14:03:52.688 : I 4378 materials read from SAP
+12/08/17 14:03:53.729 : I 75 normal orders read from SAP
+12/08/17 14:03:53.760 : I 0 re-work orders read from SAP
+12/08/17 14:03:59.829 : I Material 327700K0 tare set to 0.669
+12/08/17 14:04:02.581 : E Stable weight not returned from scale
+12/08/17 14:04:05.740 : I Material 327300F0 tare set to 0.669
+12/08/17 14:04:06.553 : E Stable weight not returned from scale
+12/08/17 14:04:12.730 : E Stable weight not returned from scale
+12/08/17 14:04:12.742 : E Error printing Test Label
+12/08/17 14:04:12.779 : I Normal Packing mode selected
+12/08/17 14:04:26.542 : I 75 normal orders read from SAP
+12/08/17 14:04:26.611 : I 0 re-work orders read from SAP
+12/08/17 14:04:26.916 : I Normal Packing mode selected
+12/08/17 14:05:07.908 : I Normal Packing mode selected
+12/08/17 14:05:11.021 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 14:05:32.767 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 14:05:36.906 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/08/17 14:05:36.929 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/08/17 14:05:37.108 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/08/17 14:05:37.772 : I 4378 materials read from SAP
+12/08/17 14:05:38.765 : I 75 normal orders read from SAP
+12/08/17 14:05:38.857 : I 0 re-work orders read from SAP
+12/08/17 14:05:51.741 : I Normal Packing mode selected
+12/08/17 14:05:53.758 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/08/17 14:06:02.063 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/08/17 14:06:02.081 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/08/17 14:06:02.286 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/08/17 14:06:02.915 : I 4378 materials read from SAP
+12/08/17 14:06:03.727 : I 75 normal orders read from SAP
+12/08/17 14:06:03.810 : I 0 re-work orders read from SAP
+12/08/17 14:06:20.761 : I 75 normal orders read from DB
+12/08/17 14:06:20.811 : I 0 re-work orders read from DB
+12/08/17 14:06:20.966 : I Normal Packing mode selected
+12/08/17 14:06:27.885 : I 4378 materials read from DB
+12/08/17 14:06:27.935 : I Normal Packing mode selected

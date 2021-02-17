@@ -1,0 +1,73 @@
+04/18/17 10:52:38.835 : I 905 materials read from DB
+04/18/17 10:52:38.868 : I 158 normal orders read from DB
+04/18/17 10:52:38.869 : I 0 re-work orders read from DB
+04/18/17 10:52:48.241 : I 905 materials read from DB
+04/18/17 10:52:48.262 : I 158 normal orders read from DB
+04/18/17 10:52:48.264 : I 0 re-work orders read from DB
+04/18/17 10:53:05.528 : I 905 materials read from DB
+04/18/17 10:53:05.548 : I 158 normal orders read from DB
+04/18/17 10:53:05.558 : I 0 re-work orders read from DB
+04/18/17 10:53:16.450 : I Material 310100F0 tare set to 0.712
+04/18/17 10:53:18.079 : I Material 310500F0 tare set to 0.527
+04/18/17 10:53:20.766 : I Material 310800F0 tare set to 0.681
+04/18/17 11:01:52.634 : I 905 materials read from DB
+04/18/17 11:01:52.652 : I 158 normal orders read from DB
+04/18/17 11:01:52.652 : I 0 re-work orders read from DB
+04/18/17 11:01:54.795 : I Material 310500F0 tare set to 0.527
+04/18/17 11:01:57.408 : I Material 310100F0 tare set to 0.712
+04/18/17 11:01:58.491 : I Material 310500F0 tare set to 0.527
+04/18/17 11:01:58.989 : I Material 310800F0 tare set to 0.681
+04/18/17 11:01:59.587 : I Material 311400J0 tare set to 0.390
+04/18/17 11:02:36.628 : I 905 materials read from DB
+04/18/17 11:02:36.645 : I 158 normal orders read from DB
+04/18/17 11:02:36.645 : I 0 re-work orders read from DB
+04/18/17 11:02:38.932 : I Material 310100F0 tare set to 0.712
+04/18/17 11:02:42.944 : I Material 310500F0 tare set to 0.527
+04/18/17 11:02:44.066 : I Material 310800F0 tare set to 0.681
+04/18/17 11:02:45.326 : I Material 311400J0 tare set to 0.390
+04/18/17 11:02:46.687 : I Material 310800F0 tare set to 0.681
+04/18/17 11:02:48.030 : I Material 310500F0 tare set to 0.527
+04/18/17 11:03:49.537 : I Material 310100F0 tare set to 0.712
+04/18/17 11:03:51.464 : I Material 310500F0 tare set to 0.527
+04/18/17 11:15:21.406 : I 905 materials read from DB
+04/18/17 11:15:21.431 : I 158 normal orders read from DB
+04/18/17 11:15:21.441 : I 0 re-work orders read from DB
+04/18/17 11:15:23.545 : I Material 310500F0 tare set to 0.527
+04/18/17 11:15:26.297 : I Material 310100F0 tare set to 0.712
+04/18/17 11:15:28.080 : I Material 310800F0 tare set to 0.681
+04/18/17 11:15:30.782 : I Material 311400J0 tare set to 0.390
+04/18/17 11:15:34.182 : I Material 310500F0 tare set to 0.527
+04/18/17 11:16:14.199 : I 905 materials read from DB
+04/18/17 11:16:14.215 : I 158 normal orders read from DB
+04/18/17 11:16:14.216 : I 0 re-work orders read from DB
+04/18/17 11:16:20.758 : I Material 310100F0 tare set to 0.712
+04/18/17 11:16:23.209 : I Material 310500F0 tare set to 0.527
+04/18/17 11:16:24.736 : I Material 310800F0 tare set to 0.681
+04/18/17 11:16:55.788 : I 905 materials read from DB
+04/18/17 11:16:55.809 : I 158 normal orders read from DB
+04/18/17 11:16:55.819 : I 0 re-work orders read from DB
+04/18/17 11:17:27.485 : I 905 materials read from DB
+04/18/17 11:17:27.502 : I 158 normal orders read from DB
+04/18/17 11:17:27.503 : I 0 re-work orders read from DB
+04/18/17 11:19:55.479 : I 905 materials read from DB
+04/18/17 11:19:55.502 : I 158 normal orders read from DB
+04/18/17 11:19:55.512 : I 0 re-work orders read from DB
+04/18/17 11:20:01.001 : I Material 310100F0 tare set to 0.712
+04/18/17 11:20:02.936 : I Material 310500F0 tare set to 0.527
+04/18/17 11:20:04.416 : I Material 310100F0 tare set to 0.712
+04/18/17 11:20:10.704 : I Material 310800F0 tare set to 0.681
+04/18/17 11:20:11.834 : I Material 310500F0 tare set to 0.527
+04/18/17 11:20:15.208 : I Material 310100F0 tare set to 0.712
+04/18/17 11:20:56.410 : I 905 materials read from DB
+04/18/17 11:20:56.426 : I 158 normal orders read from DB
+04/18/17 11:20:56.442 : I 0 re-work orders read from DB
+04/18/17 11:21:08.401 : I 905 materials read from DB
+04/18/17 11:21:08.420 : I 158 normal orders read from DB
+04/18/17 11:21:08.420 : I 0 re-work orders read from DB
+04/18/17 11:22:26.880 : I 905 materials read from DB
+04/18/17 11:22:26.897 : I 158 normal orders read from DB
+04/18/17 11:22:26.897 : I 0 re-work orders read from DB
+04/18/17 11:22:33.625 : I Material 310500F0 tare set to 0.527
+04/18/17 11:22:34.826 : I Material 310100F0 tare set to 0.712
+04/18/17 11:22:37.016 : I Material 310500F0 tare set to 0.527
+04/18/17 11:22:54.361 : I Material 310100F0 tare set to 0.712

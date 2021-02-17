@@ -1,0 +1,318 @@
+11/30/17 8:32:46.791 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+11/30/17 8:32:46.861 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+11/30/17 8:32:46.989 : W Listening to address 172.16.100.195, port 5001 for inter-station comms
+11/30/17 8:32:49.902 : I 4377 materials read from SAP
+11/30/17 8:32:52.744 : I 76 normal orders read from SAP
+11/30/17 8:32:52.824 : I 0 re-work orders read from SAP
+11/30/17 8:32:59.452 : I Material 371100J0 tare set to 0.623
+11/30/17 8:34:14.424 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+11/30/17 8:34:14.544 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+11/30/17 8:34:14.653 : W Listening to address 172.16.100.195, port 5001 for inter-station comms
+11/30/17 8:34:15.312 : I 4377 materials read from SAP
+11/30/17 8:34:16.409 : I 76 normal orders read from SAP
+11/30/17 8:34:16.490 : I 0 re-work orders read from SAP
+11/30/17 8:34:21.933 : I Material 371100J0 tare set to 0.623
+11/30/17 8:34:30.378 : W Unknown symbol in label file: &MATNR_1&
+11/30/17 8:34:30.388 : W Unknown symbol in label file: &MATNR_2_TO_8&
+11/30/17 8:34:30.398 : W Unknown symbol in label file: &MATNR_9_TO_10&
+11/30/17 8:34:30.408 : W Unknown symbol in label file: &HSDAT_DDMMMYYYY&
+11/30/17 8:34:30.419 : W Unknown symbol in label file: &SLDAT_DDMMMYYYY&
+11/30/17 8:34:30.428 : W Unknown symbol in label file: &VFDAT_DDMMMYYYY&
+11/30/17 8:34:30.438 : W Unknown symbol in label file: &NTGEW_LBL&
+11/30/17 8:34:30.727 : I Packed material 371100J0 barcode 0000000000000000004910 weight 14.377
+11/30/17 8:35:54.234 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+11/30/17 8:35:54.334 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+11/30/17 8:35:54.412 : W Listening to address 172.16.100.195, port 5001 for inter-station comms
+11/30/17 8:35:55.145 : I 4377 materials read from SAP
+11/30/17 8:35:56.579 : I Flagging carton 4 OK
+11/30/17 8:35:57.027 : I 76 normal orders read from SAP
+11/30/17 8:35:57.068 : I 0 re-work orders read from SAP
+11/30/17 8:36:00.469 : I Material 371100J0 tare set to 0.623
+11/30/17 8:36:05.697 : I Packed material 371100J0 barcode 0000000000000000005910 weight 14.377
+11/30/17 8:39:47.254 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+11/30/17 8:39:47.371 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+11/30/17 8:39:47.490 : W Listening to address 172.16.100.195, port 5001 for inter-station comms
+11/30/17 8:39:48.104 : I 4377 materials read from SAP
+11/30/17 8:39:49.063 : I 76 normal orders read from SAP
+11/30/17 8:39:49.115 : I 0 re-work orders read from SAP
+11/30/17 8:39:52.589 : I Material 371100J0 tare set to 0.623
+11/30/17 8:39:56.291 : I Packed material 371100J0 barcode 0000000000810000200910 weight 14.377
+11/30/17 8:41:52.367 : I Material 371100J0 tare set to 0.623
+11/30/17 8:41:55.242 : I Packed material 371100J0 barcode 0000000000810000201910 weight 14.377
+11/30/17 8:42:01.612 : I Material 371100J0 tare set to 0.623
+11/30/17 8:42:04.890 : I Packed material 371100J0 barcode 0000000000810000202910 weight 14.377
+11/30/17 8:42:31.853 : I Material 371100J0 tare set to 0.623
+11/30/17 8:42:33.087 : I Packed material 371100J0 barcode 0000000000810000203910 weight 14.377
+11/30/17 8:42:36.204 : I Material 371100J0 tare set to 0.623
+11/30/17 8:42:37.570 : I Packed material 371100J0 barcode 0000000000810000204910 weight 14.377
+11/30/17 8:42:40.869 : I Material 371100J0 tare set to 0.623
+11/30/17 8:42:42.239 : I Packed material 371100J0 barcode 0000000000810000205910 weight 14.377
+11/30/17 8:45:11.320 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+11/30/17 8:45:11.429 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+11/30/17 8:45:11.508 : W Listening to address 172.16.100.195, port 5001 for inter-station comms
+11/30/17 8:45:12.123 : I 4377 materials read from SAP
+11/30/17 8:45:13.403 : I 76 normal orders read from SAP
+11/30/17 8:45:13.502 : I 0 re-work orders read from SAP
+11/30/17 8:45:16.340 : I Material 371100J0 tare set to 0.623
+11/30/17 8:45:17.585 : I Packed material 371100J0 barcode 0000000000810000206910 weight 14.377
+11/30/17 11:24:36.237 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+11/30/17 11:24:36.344 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+11/30/17 11:24:36.387 : W Listening to address 172.16.100.54, port 5001 for inter-station comms
+11/30/17 11:24:37.291 : I 4377 materials read from SAP
+11/30/17 11:24:38.400 : I 76 normal orders read from SAP
+11/30/17 11:24:38.432 : I 0 re-work orders read from SAP
+11/30/17 11:25:10.026 : I Normal Packing mode selected
+11/30/17 11:28:07.435 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+11/30/17 11:28:07.443 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+11/30/17 11:28:07.562 : W Listening to address 172.16.100.54, port 5001 for inter-station comms
+11/30/17 11:28:08.349 : I 4377 materials read from SAP
+11/30/17 11:28:09.387 : I 76 normal orders read from SAP
+11/30/17 11:28:09.408 : I 0 re-work orders read from SAP
+11/30/17 11:31:14.890 : I Normal Packing mode selected
+11/30/17 14:31:38.259 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+11/30/17 14:31:38.368 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+11/30/17 14:31:38.474 : W Listening to address 172.16.100.195, port 5001 for inter-station comms
+11/30/17 14:31:39.638 : I 4377 materials read from SAP
+11/30/17 14:31:40.797 : I 76 normal orders read from SAP
+11/30/17 14:31:40.870 : I 0 re-work orders read from SAP
+11/30/17 14:32:00.342 : E Error file listing via FTP for host 172.16.100.223
+11/30/17 14:32:00.352 : ? System.Net.WebException: The remote server returned an error: 227 Entering passive mode (172,16,100,223,156,173)
+. ---> System.Net.Sockets.SocketException: A socket operation was attempted to an unreachable network 172.16.100.223:40109
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   at System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   at System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   at System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   at System.Net.CommandStream.ContinueCommandPipeline()
+   at System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   at System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   at System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at StandAlonePackingApp.PrinterImage.GetDirectoryListing(String host) in C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\PrinterImage.cs:line 198
+11/30/17 14:32:16.804 : I Normal Packing mode selected
+11/30/17 14:38:55.610 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+11/30/17 14:38:55.814 : W Listening to address 172.16.100.195, port 5001 for inter-station comms
+11/30/17 14:38:55.963 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+11/30/17 14:38:56.540 : I 4377 materials read from SAP
+11/30/17 14:39:00.532 : I 76 normal orders read from SAP
+11/30/17 14:39:03.381 : I 0 re-work orders read from SAP
+11/30/17 14:39:12.650 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:14.245 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:14.843 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:15.035 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:15.220 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:15.582 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:15.767 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:15.961 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:16.135 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:16.320 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:16.494 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:16.662 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:16.855 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:17.014 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:17.193 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:17.373 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:17.575 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:17.865 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:18.085 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:18.259 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:18.434 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:18.615 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:18.796 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:18.971 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:19.159 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:19.323 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:19.641 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:19.846 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:20.060 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:20.243 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:20.422 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:20.594 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:20.787 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:20.966 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:21.165 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:21.312 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:21.496 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:21.679 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:21.852 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:22.026 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:22.188 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:24.193 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:24.377 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:24.554 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:24.721 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:24.888 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:25.067 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:25.263 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:25.412 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:25.576 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:25.770 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:25.948 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:26.124 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:26.316 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:26.465 : I Material 320400F0 tare set to 0.656
+11/30/17 14:39:26.719 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:26.931 : I Material 310600D0 tare set to 0.574
+11/30/17 14:39:27.175 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:27.356 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:27.532 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:27.725 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:27.889 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:28.074 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:28.255 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:28.429 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:28.610 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:28.798 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:28.980 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:29.166 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:29.329 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:29.523 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:29.714 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:29.903 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:30.081 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:30.269 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:30.434 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:30.628 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:30.819 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:30.996 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:31.177 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:31.378 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:31.548 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:31.740 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:31.916 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:32.084 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:32.275 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:32.458 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:32.650 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:32.842 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:33.033 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:33.224 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:33.404 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:33.595 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:33.780 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:33.955 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:34.141 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:34.325 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:34.508 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:34.682 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:34.870 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:35.074 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:35.233 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:35.410 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:35.609 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:35.785 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:35.995 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:36.206 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:36.355 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:36.561 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:36.745 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:36.929 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:37.133 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:37.336 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:37.500 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:37.676 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:37.876 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:38.067 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:38.258 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:38.435 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:38.619 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:38.809 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:39.001 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:39.211 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:39.380 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:39.590 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:39.772 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:39.970 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:40.156 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:40.353 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:40.556 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:40.748 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:40.931 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:41.132 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:41.316 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:41.505 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:41.688 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:41.886 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:42.068 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:42.260 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:42.465 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:42.651 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:42.843 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:43.044 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:43.243 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:43.435 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:43.636 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:43.811 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:44.004 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:44.185 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:44.370 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:44.569 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:44.750 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:44.921 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:45.124 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:45.308 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:45.499 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:45.704 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:45.884 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:46.057 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:46.250 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:46.441 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:46.643 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:46.834 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:47.037 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:47.186 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:47.371 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:47.554 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:47.724 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:47.900 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:48.073 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:48.266 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:48.457 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:48.620 : I Material 312200F0 tare set to 0.656
+11/30/17 14:39:48.771 : I Material 312200F0 tare set to 0.656

@@ -1,0 +1,154 @@
+12/01/17 16:07:35.349 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/01/17 16:07:35.364 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+12/01/17 16:07:35.586 : W Listening to address 172.16.100.195, port 5001 for inter-station comms
+12/01/17 16:07:36.353 : I 4377 materials read from SAP
+12/01/17 16:07:37.364 : I 0 normal orders read from SAP
+12/01/17 16:07:37.438 : I 0 re-work orders read from SAP
+12/01/17 16:07:46.083 : E Error getting file list via FTP for printer host 172.16.100.223 - see log for details
+12/01/17 16:07:46.094 : ? System.Net.WebException: The remote server returned an error: 227 Entering passive mode (172,16,100,223,86,105)
+. ---> System.Net.Sockets.SocketException: A socket operation was attempted to an unreachable network 172.16.100.223:22121
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   at System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   at System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   at System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   at System.Net.CommandStream.ContinueCommandPipeline()
+   at System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   at System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   at System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at StandAlonePackingApp.PrinterImage.GetDirectoryListing() in C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\PrinterImage.cs:line 253
+12/01/17 16:07:49.964 : E Error getting file list via FTP for printer host 172.16.100.223 - see log for details
+12/01/17 16:07:49.975 : ? System.Net.WebException: The remote server returned an error: 227 Entering passive mode (172,16,100,223,124,77)
+. ---> System.Net.Sockets.SocketException: A socket operation was attempted to an unreachable network 172.16.100.223:31821
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   at System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   at System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   at System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   at System.Net.CommandStream.ContinueCommandPipeline()
+   at System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   at System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   at System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at StandAlonePackingApp.PrinterImage.GetDirectoryListing() in C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\PrinterImage.cs:line 253
+12/01/17 16:08:04.411 : E Error uploading file C:\Images\AISTAMP.pcx via FTP to printer host 172.16.100.223 - see log for details
+12/01/17 16:08:04.422 : ? System.Net.WebException: The remote server returned an error: 227 Entering passive mode (172,16,100,223,60,214)
+. ---> System.Net.Sockets.SocketException: A socket operation was attempted to an unreachable network 172.16.100.223:15574
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   at System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   at System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   at System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   at System.Net.CommandStream.ContinueCommandPipeline()
+   at System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   at System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   at System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at StandAlonePackingApp.PrinterImage.SendToPrinter() in C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\PrinterImage.cs:line 200
+12/01/17 16:08:07.455 : E Error uploading file C:\Images\AISTAMP.pcx via FTP to printer host 172.16.100.223 - see log for details
+12/01/17 16:08:07.470 : ? System.Net.WebException: The remote server returned an error: 227 Entering passive mode (172,16,100,223,36,237)
+. ---> System.Net.Sockets.SocketException: A socket operation was attempted to an unreachable network 172.16.100.223:9453
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   at System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   at System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   at System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   at System.Net.CommandStream.ContinueCommandPipeline()
+   at System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   at System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   at System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at StandAlonePackingApp.PrinterImage.SendToPrinter() in C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\PrinterImage.cs:line 200
+12/01/17 16:08:10.384 : I Normal Packing mode selected
+12/01/17 16:15:24.197 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/01/17 16:15:24.306 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+12/01/17 16:15:24.478 : W Listening to address 172.16.100.195, port 5001 for inter-station comms
+12/01/17 16:15:25.123 : I 4377 materials read from SAP
+12/01/17 16:15:26.268 : I 0 normal orders read from SAP
+12/01/17 16:15:26.377 : I 0 re-work orders read from SAP
+12/01/17 16:15:29.430 : E Error getting file list via FTP for printer host 172.16.100.223 - see log for details
+12/01/17 16:15:29.441 : ? System.Net.WebException: The remote server returned an error: 227 Entering passive mode (172,16,100,223,133,238)
+. ---> System.Net.Sockets.SocketException: A socket operation was attempted to an unreachable network 172.16.100.223:34286
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.FtpControlStream.QueueOrCreateDataConection(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream, Boolean& isSocketReady)
+   at System.Net.FtpControlStream.PipelineCallback(PipelineEntry entry, ResponseDescription response, Boolean timeout, Stream& stream)
+   at System.Net.CommandStream.PostReadCommandProcessing(Stream& stream)
+   at System.Net.CommandStream.PostSendCommandProcessing(Stream& stream)
+   at System.Net.CommandStream.ContinueCommandPipeline()
+   at System.Net.CommandStream.SubmitRequest(WebRequest request, Boolean async, Boolean readInitalResponseOnConnect)
+   at System.Net.FtpWebRequest.TimedSubmitRequestHelper(Boolean async)
+   at System.Net.FtpWebRequest.SubmitRequest(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at StandAlonePackingApp.PrinterImage.GetDirectoryListing() in C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\PrinterImage.cs:line 253
+12/01/17 16:18:17.059 : E Error deleting file C:\Images\AISTAMP.pcx via FTP for printer host 172.16.100.223 - see log for details
+12/01/17 16:18:17.077 : ? System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at StandAlonePackingApp.PrinterImage.RemoveFromPrinter() in C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\PrinterImage.cs:line 227
+12/01/17 16:18:19.818 : I Normal Packing mode selected

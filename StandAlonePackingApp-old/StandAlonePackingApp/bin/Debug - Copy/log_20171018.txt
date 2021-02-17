@@ -1,0 +1,3 @@
+10/18/17 17:33:46.941 : I 4368 materials read from DB
+10/18/17 17:33:47.013 : I 0 normal orders read from DB
+10/18/17 17:33:47.020 : I 0 re-work orders read from DB

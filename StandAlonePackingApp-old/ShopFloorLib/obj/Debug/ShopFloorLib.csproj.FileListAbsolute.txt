@@ -1,0 +1,42 @@
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.ScaleIndicator.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.csproj.GenerateResource.Cache
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\bin\Debug\ShopFloorLib.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\bin\Debug\ShopFloorLib.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.ButtonMatrix.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.NumericKeypad.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\bin\Debug\ScaleSimulator.exe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.ScaleSettingsCntrl.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.SAPSettingsCntrl.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.MessageLogCntrl.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.LabelPrinterSettingsCntrl.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.BarcodeScanner.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.BarcodeScannerSettingsCntrl.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\bin\Debug\ScaleSimulator.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\bin\Debug\ScaleSimulator.exe.config
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\bin\Debug\ShopFloorLib.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\bin\Debug\ShopFloorLib.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\bin\Debug\ScaleSimulator.exe
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\bin\Debug\ScaleSimulator.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\bin\Debug\ScaleSimulator.exe.config
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.BarcodeScanner.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.BarcodeScannerSettingsCntrl.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.ButtonMatrix.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.LabelPrinterSettingsCntrl.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.MessageLogCntrl.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.NumericKeypad.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.SAPSettingsCntrl.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.ScaleIndicator.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.ScaleSettingsCntrl.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.csproj.GenerateResource.Cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.NumericKeypadDialog.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\bin\Debug\MySql.Data.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\bin\Debug\MySql.Data.xml
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\obj\Debug\ShopFloorLib.DBSettingsCntrl.resources

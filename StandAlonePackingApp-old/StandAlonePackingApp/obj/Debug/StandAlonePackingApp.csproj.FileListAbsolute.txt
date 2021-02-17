@@ -1,0 +1,65 @@
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\StandAlonePackingApp.exe.config
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.Properties.Resources.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.csproj.GenerateResource.Cache
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\StandAlonePackingApp.exe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\StandAlonePackingApp.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.exe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.MainScreen.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.SettingsScreen.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\ShopFloorLib.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\ShopFloorLib.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\ScaleSimulator.exe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\StandAlonePackingLib.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\StandAlonePackingLib.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.BusyDialog.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.ChooseModeDialog.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.ChooseOrderForBinDialog.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.ChooseReworkDateDialog.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.TareWeightForBinDialog.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.ActionsScreen.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\ScaleSimulator.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\MySql.Data.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\StandAlonePackingLib.dll.config
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\MySql.Data.xml
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\ScaleSimulator.exe.config
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\StandAlonePackingApp.exe.config
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\StandAlonePackingApp.exe
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\StandAlonePackingApp.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\MySql.Data.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\ShopFloorLib.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\StandAlonePackingLib.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\ScaleSimulator.exe
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\ShopFloorLib.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\StandAlonePackingLib.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\StandAlonePackingLib.dll.config
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\MySql.Data.xml
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\ScaleSimulator.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\ScaleSimulator.exe.config
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.ActionsScreen.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.ChooseOrderForBinDialog.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.BusyDialog.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.ChooseReworkDateDialog.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.ChooseModeDialog.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.MainScreen.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.Properties.Resources.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.SettingsScreen.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.TareWeightForBinDialog.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.csproj.GenerateResource.Cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.exe
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.LogonScreen.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.UserAdminScreen.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.UserAdmin.EditUserForm.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.UserAdmin.ChangePasswordForm.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.UserAdmin.CreateNewUserForm.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.PrinterImagesDialog.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.EditImageDialog.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.PermanentLogDialog.resources
+Y:\StandAlonePackingApp-old\StandAlonePackingApp\bin\Debug\StandAlonePackingApp.exe.config
+Y:\StandAlonePackingApp-old\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.exe
+Y:\StandAlonePackingApp-old\StandAlonePackingApp\obj\Debug\StandAlonePackingApp.pdb

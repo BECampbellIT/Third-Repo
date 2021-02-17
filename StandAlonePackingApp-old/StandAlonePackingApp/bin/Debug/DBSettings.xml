@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<DBSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DBServer>localhost</DBServer>
+  <DBUser>sapa</DBUser>
+  <DBPassword>iTUmRDW5x3MX9jsY7h9meg==</DBPassword>
+</DBSettings>

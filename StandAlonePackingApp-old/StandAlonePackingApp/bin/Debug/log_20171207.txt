@@ -1,0 +1,698 @@
+12/07/17 11:11:19.360 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 11:11:19.380 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+12/07/17 11:11:19.469 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 11:11:34.616 : I 4378 materials read from SAP
+12/07/17 11:11:36.189 : I 0 normal orders read from SAP
+12/07/17 11:11:36.286 : I 0 re-work orders read from SAP
+12/07/17 11:11:54.984 : I Normal Packing mode selected
+12/07/17 11:14:56.025 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 11:14:56.121 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+12/07/17 11:14:56.233 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 11:14:57.010 : I 4378 materials read from SAP
+12/07/17 11:14:58.043 : I 0 normal orders read from SAP
+12/07/17 11:14:58.088 : I 0 re-work orders read from SAP
+12/07/17 11:15:44.026 : I Normal Packing mode selected
+12/07/17 11:15:53.917 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 11:15:54.028 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+12/07/17 11:15:54.150 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 11:15:54.872 : I 4378 materials read from SAP
+12/07/17 11:15:55.863 : I 0 normal orders read from SAP
+12/07/17 11:15:55.884 : I 0 re-work orders read from SAP
+12/07/17 11:16:19.062 : I Normal Packing mode selected
+12/07/17 11:16:29.231 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 11:16:29.330 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+12/07/17 11:16:29.443 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 11:16:30.264 : I 4378 materials read from SAP
+12/07/17 11:16:31.174 : I 0 normal orders read from SAP
+12/07/17 11:16:31.189 : I 0 re-work orders read from SAP
+12/07/17 11:16:41.894 : E Error deleting file S:\IT\03 Projects\SAPA\Images\AISTAMP.pcx via FTP from printer host 172.16.100.223 - see log for details
+12/07/17 11:16:41.949 : ? System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at StandAlonePackingApp.PrinterImage.RemoveFromPrinter() in C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\PrinterImage.cs:line 260
+12/07/17 11:17:30.024 : I Normal Packing mode selected
+12/07/17 12:39:40.201 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 12:39:40.284 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\BarcodeScanner.cs:line 84
+12/07/17 12:39:40.433 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 12:39:41.140 : I 4378 materials read from SAP
+12/07/17 12:39:42.071 : I 0 normal orders read from SAP
+12/07/17 12:39:42.141 : I 0 re-work orders read from SAP
+12/07/17 12:40:00.868 : I Normal Packing mode selected
+12/07/17 16:45:28.699 : E Error in xml settings file - unknown Node: DBServer 	 
+12/07/17 16:45:28.710 : E Error in xml settings file - unknown Node: DBUser 	 
+12/07/17 16:45:28.719 : E Error in xml settings file - unknown Node: DBPassword 	 
+12/07/17 16:45:28.928 : E System.IO.FileNotFoundException: Could not find file 'C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\DBSettings.xml'.
+File name: 'C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\DBSettings.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at ShopFloorLib.XMLConfigHandler.ReadConfig(Type type) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\XMLConfigHandler.cs:line 29
+12/07/17 16:45:28.939 : E Error ready DBSettings.XML
+12/07/17 16:45:41.504 : E Error in xml settings file - unknown Node: DBServer 	 
+12/07/17 16:45:41.513 : E Error in xml settings file - unknown Node: DBUser 	 
+12/07/17 16:45:41.524 : E Error in xml settings file - unknown Node: DBPassword 	 
+12/07/17 16:48:20.211 : E System.IO.FileNotFoundException: Could not find file 'C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\DBSettings.xml'.
+File name: 'C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingApp\bin\Debug\DBSettings.xml'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at ShopFloorLib.XMLConfigHandler.ReadConfig(Type type) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\XMLConfigHandler.cs:line 29
+12/07/17 16:48:20.278 : E Error in xml settings file - unknown Node: DBServer 	 
+12/07/17 16:48:20.289 : E Error in xml settings file - unknown Node: DBUser 	 
+12/07/17 16:48:20.298 : E Error in xml settings file - unknown Node: DBPassword 	 
+12/07/17 16:48:34.106 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 16:48:46.831 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 16:48:52.228 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 16:48:52.346 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 16:48:52.406 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 16:48:57.188 : I 4378 materials read from SAP
+12/07/17 16:48:58.255 : I 0 normal orders read from SAP
+12/07/17 16:48:58.350 : I 0 re-work orders read from SAP
+12/07/17 16:49:11.675 : I Normal Packing mode selected
+12/07/17 17:29:27.377 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 17:29:40.108 : Permanent log Image WP AI Stamp Domestic unlocked by This is another test user xx
+12/07/17 17:29:42.521 : Permanent log Image WP AI Stamp Domestic locked by This is another test user xx
+12/07/17 17:30:26.310 : Permanent log Image WP AI Stamp Domestic unlocked by This is another test user xx
+12/07/17 17:30:36.627 : Permanent log Image WP AI Stamp Domestic unlocked by This is another test user xx
+12/07/17 17:30:42.942 : Permanent log Image WP AI Stamp Domestic locked by This is another test user xx
+12/07/17 17:40:40.167 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 17:41:01.202 : Permanent log Image definition New Image filename C:\Images\nsw4s.pcx created on DB by asasd
+12/07/17 17:41:19.913 : Permanent log Image definition New Image ssss filename C:\Images\nsw4s.pcx updated on DB by asasd
+12/07/17 17:41:35.055 : Permanent log Image definition New Image ssss deleted by by asasd
+12/07/17 17:56:56.836 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 17:57:02.516 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 17:57:02.637 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 17:57:02.730 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 17:57:05.620 : I 4378 materials read from SAP
+12/07/17 17:57:06.626 : I 0 normal orders read from SAP
+12/07/17 17:57:06.667 : I 0 re-work orders read from SAP
+12/07/17 17:59:56.665 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:00:01.565 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:00:01.678 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:00:01.791 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:00:05.373 : I 4378 materials read from SAP
+12/07/17 18:00:06.273 : I 0 normal orders read from SAP
+12/07/17 18:00:06.385 : I 0 re-work orders read from SAP
+12/07/17 18:04:07.862 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:04:12.841 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:04:12.937 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:04:13.134 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:04:16.946 : I 4378 materials read from SAP
+12/07/17 18:04:17.819 : I 0 normal orders read from SAP
+12/07/17 18:04:17.839 : I 0 re-work orders read from SAP
+12/07/17 18:05:18.073 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:05:23.045 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:05:23.170 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:05:23.259 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:05:24.023 : I 4378 materials read from SAP
+12/07/17 18:05:24.955 : I 0 normal orders read from SAP
+12/07/17 18:05:25.010 : I 0 re-work orders read from SAP
+12/07/17 18:08:15.267 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:08:20.462 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:08:20.563 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:08:20.692 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:08:23.656 : I 4378 materials read from SAP
+12/07/17 18:08:24.593 : I 0 normal orders read from SAP
+12/07/17 18:08:24.604 : I 0 re-work orders read from SAP
+12/07/17 18:09:45.729 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:09:50.696 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:09:50.726 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:09:50.945 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:09:51.749 : I 4378 materials read from SAP
+12/07/17 18:09:52.774 : I 0 normal orders read from SAP
+12/07/17 18:09:52.785 : I 0 re-work orders read from SAP
+12/07/17 18:10:16.813 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:10:21.637 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:10:21.749 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:10:21.902 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:10:22.607 : I 4378 materials read from SAP
+12/07/17 18:10:23.480 : I 0 normal orders read from SAP
+12/07/17 18:10:23.504 : I 0 re-work orders read from SAP
+12/07/17 18:11:06.048 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:11:11.769 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:11:11.888 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:11:11.980 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:11:12.795 : I 4378 materials read from SAP
+12/07/17 18:11:14.007 : I 0 normal orders read from SAP
+12/07/17 18:11:14.063 : I 0 re-work orders read from SAP
+12/07/17 18:11:43.821 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:11:48.906 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:11:48.926 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:11:49.113 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:11:49.793 : I 4378 materials read from SAP
+12/07/17 18:11:51.181 : I 0 normal orders read from SAP
+12/07/17 18:11:51.210 : I 0 re-work orders read from SAP
+12/07/17 18:12:17.635 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:12:22.317 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:12:22.430 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:12:22.540 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:12:23.272 : I 4378 materials read from SAP
+12/07/17 18:12:24.160 : I 0 normal orders read from SAP
+12/07/17 18:12:24.170 : I 0 re-work orders read from SAP
+12/07/17 18:13:36.318 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:13:41.738 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:13:41.771 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:13:41.990 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:13:42.730 : I 4378 materials read from SAP
+12/07/17 18:13:43.827 : I 0 normal orders read from SAP
+12/07/17 18:13:43.842 : I 0 re-work orders read from SAP
+12/07/17 18:13:59.711 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:15:03.994 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:15:04.122 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:15:04.238 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:15:05.027 : I 4378 materials read from SAP
+12/07/17 18:15:06.191 : I 0 normal orders read from SAP
+12/07/17 18:15:06.288 : I 0 re-work orders read from SAP
+12/07/17 18:17:04.690 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:17:09.860 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:17:09.884 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:17:10.076 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:17:14.049 : I 4378 materials read from SAP
+12/07/17 18:17:15.323 : I 0 normal orders read from SAP
+12/07/17 18:17:15.333 : I 0 re-work orders read from SAP
+12/07/17 18:17:50.311 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:17:55.726 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:17:55.841 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:17:55.947 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:17:56.690 : I 4378 materials read from SAP
+12/07/17 18:17:57.791 : I 0 normal orders read from SAP
+12/07/17 18:17:57.813 : I 0 re-work orders read from SAP
+12/07/17 18:18:32.488 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:18:37.720 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:18:37.824 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:18:37.935 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:18:38.678 : I 4378 materials read from SAP
+12/07/17 18:18:39.649 : I 0 normal orders read from SAP
+12/07/17 18:18:39.680 : I 0 re-work orders read from SAP
+12/07/17 18:19:02.663 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:19:07.276 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:19:07.384 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:19:07.517 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:19:08.153 : I 4378 materials read from SAP
+12/07/17 18:19:09.310 : I 0 normal orders read from SAP
+12/07/17 18:19:09.338 : I 0 re-work orders read from SAP
+12/07/17 18:19:44.793 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:19:50.149 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:19:50.170 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:19:50.359 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:19:51.170 : I 4378 materials read from SAP
+12/07/17 18:19:52.341 : I 0 normal orders read from SAP
+12/07/17 18:19:52.350 : I 0 re-work orders read from SAP
+12/07/17 18:21:44.839 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:21:49.644 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:21:49.759 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:21:49.859 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:21:50.558 : I 4378 materials read from SAP
+12/07/17 18:21:51.485 : I 0 normal orders read from SAP
+12/07/17 18:21:51.515 : I 0 re-work orders read from SAP
+12/07/17 18:24:05.652 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:24:10.727 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:24:10.847 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:24:10.974 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:24:11.652 : I 4378 materials read from SAP
+12/07/17 18:24:12.540 : I 0 normal orders read from SAP
+12/07/17 18:24:12.585 : I 0 re-work orders read from SAP
+12/07/17 18:24:43.331 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:24:47.834 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:24:47.941 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:24:48.060 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:24:48.727 : I 4378 materials read from SAP
+12/07/17 18:24:49.855 : I 0 normal orders read from SAP
+12/07/17 18:24:49.903 : I 0 re-work orders read from SAP
+12/07/17 18:25:28.079 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:25:32.990 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:25:33.118 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:25:33.207 : W Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:25:33.979 : I 4378 materials read from SAP
+12/07/17 18:25:35.266 : I 0 normal orders read from SAP
+12/07/17 18:25:35.300 : I 0 re-work orders read from SAP
+12/07/17 18:29:07.897 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:29:13.103 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:29:13.131 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:29:13.294 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:29:14.012 : I 4378 materials read from SAP
+12/07/17 18:29:15.190 : I 75 normal orders read from SAP
+12/07/17 18:29:15.291 : I 0 re-work orders read from SAP
+12/07/17 18:29:18.878 : I Material 312200F0 tare set to 0.656
+12/07/17 18:29:22.967 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:27.298 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:28.442 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:28.878 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:29.094 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:29.318 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:29.634 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:30.011 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:30.225 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:30.423 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:30.614 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:30.792 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:31.153 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:31.395 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:54.105 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:54.953 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:29:55.830 : I Material 310600D0 tare set to 0.574
+12/07/17 18:29:57.841 : I Packed material 310600D0 barcode 0000000000810000207911 weight 14.426
+12/07/17 18:30:11.782 : I Material 312200F0 tare set to 0.656
+12/07/17 18:30:12.502 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:30:13.871 : I Material 320400F0 tare set to 0.656
+12/07/17 18:30:14.725 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:30:15.972 : I Material 30001C1 tare set to 0.1
+12/07/17 18:30:17.030 : I Packed material 30001C1 barcode 0000000000810000208910 weight 14.9
+12/07/17 18:30:20.845 : I Material 310800FE tare set to 0.656
+12/07/17 18:30:22.082 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:30:24.254 : I Material 320400F0 tare set to 0.656
+12/07/17 18:30:25.129 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:30:28.701 : I Material 320600F0 tare set to 0.656
+12/07/17 18:30:29.529 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:31:44.728 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:31:49.483 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:31:49.615 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:31:49.684 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:31:50.488 : I 4378 materials read from SAP
+12/07/17 18:32:07.595 : I Flagging carton 810000207 OK
+12/07/17 18:32:07.633 : I Flagging carton 810000208 OK
+12/07/17 18:32:08.054 : I 75 normal orders read from SAP
+12/07/17 18:32:08.064 : I 0 re-work orders read from SAP
+12/07/17 18:32:12.854 : I Material 312200F0 tare set to 0.656
+12/07/17 18:32:14.350 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:32:16.049 : I Material 310600D0 tare set to 0.574
+12/07/17 18:32:17.921 : I Packed material 310600D0 barcode 810000209 weight 14.426
+12/07/17 18:32:21.760 : I Material 310600D0 tare set to 0.574
+12/07/17 18:32:23.039 : I Packed material 310600D0 barcode 810000210 weight 14.426
+12/07/17 18:32:24.216 : I Material 310600D0 tare set to 0.574
+12/07/17 18:32:25.258 : I Packed material 310600D0 barcode 810000211 weight 14.426
+12/07/17 18:32:28.810 : I Material 312200F0 tare set to 0.656
+12/07/17 18:32:29.891 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:32:31.191 : I Material 310600D0 tare set to 0.574
+12/07/17 18:34:34.005 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:34:38.944 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:34:38.969 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:34:39.174 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:34:43.159 : I 4378 materials read from SAP
+12/07/17 18:34:45.467 : I Flagging carton 810000209 OK
+12/07/17 18:34:45.536 : I Flagging carton 810000210 OK
+12/07/17 18:34:45.870 : I Flagging carton 810000211 OK
+12/07/17 18:34:46.282 : I 75 normal orders read from SAP
+12/07/17 18:34:46.390 : I 0 re-work orders read from SAP
+12/07/17 18:34:50.192 : I Material 312200F0 tare set to 0.656
+12/07/17 18:34:51.362 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:34:52.622 : I Material 320400F0 tare set to 0.656
+12/07/17 18:34:53.345 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:34:54.281 : I Material 320600F0 tare set to 0.656
+12/07/17 18:34:55.002 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:35:26.541 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:35:31.230 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:35:31.350 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:35:31.439 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:35:32.222 : I 4378 materials read from SAP
+12/07/17 18:35:33.494 : I 75 normal orders read from SAP
+12/07/17 18:35:33.530 : I 0 re-work orders read from SAP
+12/07/17 18:43:08.631 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:43:13.938 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:44:07.958 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:44:13.287 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:45:32.466 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:45:37.532 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:46:29.137 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:46:29.292 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:46:33.918 : I 4378 materials read from SAP
+12/07/17 18:47:15.713 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:47:21.119 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:47:21.236 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:47:21.346 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:47:22.131 : I 4378 materials read from SAP
+12/07/17 18:47:23.286 : I 75 normal orders read from SAP
+12/07/17 18:47:23.306 : I 0 re-work orders read from SAP
+12/07/17 18:47:27.308 : I Material 320400F0 tare set to 0.656
+12/07/17 18:47:28.144 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:47:29.219 : I Material 320400F0 tare set to 0.656
+12/07/17 18:47:29.876 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:47:31.470 : I Material 320400F0 tare set to 0.656
+12/07/17 18:47:32.751 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:47:33.981 : I Material 320400F0 tare set to 0.656
+12/07/17 18:47:35.136 : I Material 312200F0 tare set to 0.656
+12/07/17 18:47:36.605 : I Material 320400F0 tare set to 0.656
+12/07/17 18:47:37.142 : I Material 320600F0 tare set to 0.656
+12/07/17 18:47:37.494 : I Material 320400F0 tare set to 0.656
+12/07/17 18:47:38.058 : I Material 310600D0 tare set to 0.574
+12/07/17 18:47:38.484 : I Material 30001C1 tare set to 0.1
+12/07/17 18:47:38.861 : I Material 310800FE tare set to 0.656
+12/07/17 18:47:39.568 : I Material 320002F0 tare set to 0.656
+12/07/17 18:47:39.915 : I Material 320600F0 tare set to 0.656
+12/07/17 18:47:40.345 : I Material 320400F0 tare set to 0.656
+12/07/17 18:47:40.663 : I Material 312200F0 tare set to 0.656
+12/07/17 18:47:44.283 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:47:46.390 : I Material 320400F0 tare set to 0.656
+12/07/17 18:47:47.974 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:47:49.515 : I Material 310600D0 tare set to 0.574
+12/07/17 18:47:51.491 : I Packed material 310600D0 barcode 810000212 weight 14.426
+12/07/17 18:47:55.078 : I Material 310600D0 tare set to 0.574
+12/07/17 18:47:56.217 : I Packed material 310600D0 barcode 810000213 weight 14.426
+12/07/17 18:48:19.428 : I Material 320400F0 tare set to 0.656
+12/07/17 18:48:22.587 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:48:26.195 : I Material 310600D0 tare set to 0.574
+12/07/17 18:48:27.335 : I Packed material 310600D0 barcode 810000214 weight 14.426
+12/07/17 18:49:15.845 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:49:21.093 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:49:21.210 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:49:21.382 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:49:22.158 : I 4378 materials read from SAP
+12/07/17 18:49:24.308 : I Flagging carton 810000212 OK
+12/07/17 18:49:24.378 : I Flagging carton 810000213 OK
+12/07/17 18:49:24.492 : I Flagging carton 810000214 OK
+12/07/17 18:49:25.151 : I 75 normal orders read from SAP
+12/07/17 18:49:25.257 : I 0 re-work orders read from SAP
+12/07/17 18:49:30.198 : I Material 312200F0 tare set to 0.656
+12/07/17 18:49:31.927 : I Material 320400F0 tare set to 0.656
+12/07/17 18:49:33.564 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:49:36.815 : I Material 312200F0 tare set to 0.656
+12/07/17 18:49:37.565 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:49:40.003 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:49:40.431 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:49:40.613 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:49:40.963 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:49:41.131 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:49:41.331 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:19.348 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:50:24.366 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:50:24.515 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:50:24.603 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:50:25.372 : I 4378 materials read from SAP
+12/07/17 18:50:26.462 : I 75 normal orders read from SAP
+12/07/17 18:50:26.496 : I 0 re-work orders read from SAP
+12/07/17 18:50:31.478 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:32.365 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:32.757 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:32.942 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:33.101 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:33.256 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:33.429 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:33.591 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:33.765 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:33.919 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:34.107 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:34.307 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:34.467 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:34.638 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:34.828 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:34.991 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:35.164 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:35.343 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:35.511 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:35.679 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:35.860 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:36.020 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:36.205 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:36.368 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:36.568 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:36.732 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:36.911 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:37.071 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:37.271 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:37.439 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:37.623 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:37.799 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:37.956 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:38.109 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:38.375 : I Material 320400F0 tare set to 0.656
+12/07/17 18:50:39.345 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:40.010 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:40.196 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:40.355 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:40.523 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:40.691 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:40.849 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:41.019 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:41.195 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:41.363 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:41.547 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:41.731 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:41.923 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:42.097 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:42.273 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:42.451 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:42.627 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:42.810 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:43.011 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:43.197 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:43.355 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:43.539 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:43.722 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:43.897 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:44.075 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:44.852 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:45.235 : I Material 320600F0 tare set to 0.656
+12/07/17 18:50:45.831 : I Material 320400F0 tare set to 0.656
+12/07/17 18:50:46.095 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:46.558 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:46.952 : I Material 320600F0 tare set to 0.656
+12/07/17 18:50:47.114 : I Material 320600F0 tare set to 0.656
+12/07/17 18:50:47.331 : I Material 320400F0 tare set to 0.656
+12/07/17 18:50:47.517 : I Material 320400F0 tare set to 0.656
+12/07/17 18:50:47.703 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:48.247 : I Material 320600F0 tare set to 0.656
+12/07/17 18:50:48.428 : I Material 320600F0 tare set to 0.656
+12/07/17 18:50:48.635 : I Material 320500FE tare set to 0.656
+12/07/17 18:50:49.163 : I Material 310800FE tare set to 0.656
+12/07/17 18:50:49.338 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:49.563 : I Material 320600F0 tare set to 0.656
+12/07/17 18:50:49.746 : I Material 320002F0 tare set to 0.656
+12/07/17 18:50:49.907 : I Material 320002F0 tare set to 0.656
+12/07/17 18:50:50.091 : I Material 310800FE tare set to 0.656
+12/07/17 18:50:50.283 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:50.508 : I Material 320400F0 tare set to 0.656
+12/07/17 18:50:50.791 : I Material 312200F0 tare set to 0.656
+12/07/17 18:50:51.025 : I Material 310800FE tare set to 0.656
+12/07/17 18:50:52.296 : I Material 342700C0 tare set to 0.729
+12/07/17 18:50:52.511 : I Material 342200S0 tare set to 0.857
+12/07/17 18:50:52.710 : I Material 342400S0 tare set to 0.743
+12/07/17 18:50:52.910 : I Material 343500J0 tare set to 0.757
+12/07/17 18:50:53.695 : I Material 341000C0 tare set to 0.586
+12/07/17 18:50:54.111 : I Material 342700C0 tare set to 0.729
+12/07/17 18:50:55.683 : I Material 320002F0 tare set to 0.656
+12/07/17 18:50:56.329 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:57.858 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:58.035 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:58.219 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:58.422 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:58.587 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:58.762 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:58.937 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:59.105 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:59.289 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:59.457 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:59.625 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:59.785 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:50:59.969 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:51:00.147 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:51:00.354 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:51:00.507 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:51:00.675 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:51:00.841 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:51:01.027 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:51:01.177 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:51:01.339 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:51:01.516 : E Weight (14.34 kg) is below the minimum weight of 20.00
+12/07/17 18:51:14.562 : I Packed material 320002F0 barcode 810000215 weight 20.344
+12/07/17 18:51:15.957 : I Material 320002F0 tare set to 0.656
+12/07/17 18:51:16.933 : I Packed material 320002F0 barcode 810000216 weight 20.344
+12/07/17 18:51:19.059 : I Material 312200F0 tare set to 0.656
+12/07/17 18:51:20.083 : I Packed material 312200F0 barcode 810000217 weight 20.0
+12/07/17 18:51:22.401 : I Material 310600D0 tare set to 0.574
+12/07/17 18:51:23.246 : I Packed material 310600D0 barcode 810000218 weight 20.426
+12/07/17 18:51:27.354 : I Material 346500C0 tare set to 0.584
+12/07/17 18:51:27.526 : I Material 346500C0 tare set to 0.584
+12/07/17 18:51:27.693 : I Material 346500C0 tare set to 0.584
+12/07/17 18:51:27.853 : I Material 346500C0 tare set to 0.584
+12/07/17 18:51:28.018 : I Material 346500C0 tare set to 0.584
+12/07/17 18:51:28.186 : I Material 346500C0 tare set to 0.584
+12/07/17 18:51:28.362 : I Material 346500C0 tare set to 0.584
+12/07/17 18:51:28.533 : I Material 346500C0 tare set to 0.584
+12/07/17 18:51:28.725 : I Material 346500C0 tare set to 0.584
+12/07/17 18:51:28.898 : I Material 346500C0 tare set to 0.584
+12/07/17 18:51:29.210 : I Material 344400J0 tare set to 0.64
+12/07/17 18:51:29.710 : I Material 346500C0 tare set to 0.584
+12/07/17 18:51:29.952 : I Material 346900J0 tare set to 0.729
+12/07/17 18:53:26.450 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:53:35.518 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:53:35.635 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:53:35.714 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:53:36.513 : I 4378 materials read from SAP
+12/07/17 18:53:42.829 : I Flagging carton 810000215 OK
+12/07/17 18:53:42.858 : I Flagging carton 810000216 OK
+12/07/17 18:53:42.957 : I Flagging carton 810000217 OK
+12/07/17 18:53:43.066 : I Flagging carton 810000218 OK
+12/07/17 18:53:43.543 : I 75 normal orders read from SAP
+12/07/17 18:53:43.608 : I 0 re-work orders read from SAP
+12/07/17 18:53:47.194 : I Material 310600D0 tare set to 0.574
+12/07/17 18:53:59.881 : I Settings read. Web Service Binding: http://172.16.108.117:8000/sap/bc/srt/rfc/sap/zstandalonepacking/300/zsapa/b1 SAP user: apickering
+12/07/17 18:54:04.019 : W Can't connect to barcode scanner Read from=COM4 prefix=A suffix=E baud=9600 partity=None data bits=8 stop bits=One
+12/07/17 18:54:04.043 : ? Error opening barcode port System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at ShopFloorLib.BarcodeScanner.backgroundWorker1_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Anthony\source\repos\StandAlonePackingApp\ShopFloorLib\Barcodes\BarcodeScanner.cs:line 84
+12/07/17 18:54:04.228 : I Listening to address 172.16.100.69, port 5001 for inter-station comms
+12/07/17 18:54:04.850 : I 4378 materials read from SAP
+12/07/17 18:54:05.967 : I 75 normal orders read from SAP
+12/07/17 18:54:05.994 : I 0 re-work orders read from SAP
+12/07/17 18:54:09.636 : I Material 310600D0 tare set to 0.574
+12/07/17 18:54:11.361 : I Packed material 310600D0 barcode 810000219 weight 14.426
+12/07/17 18:54:18.837 : I Normal Packing mode selected
+12/07/17 18:54:19.759 : I Material 310600D0 tare set to 0.574
+12/07/17 18:54:21.962 : I Packed material 310600D0 barcode 810000220 weight 14.426
+12/07/17 18:54:24.880 : I Material 312200F0 tare set to 0.656
+12/07/17 18:54:25.802 : E Weight (14.34 kg) is below the minimum weight of 20.00

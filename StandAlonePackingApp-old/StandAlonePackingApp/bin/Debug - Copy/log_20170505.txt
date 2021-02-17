@@ -1,0 +1,116 @@
+05/05/17 9:03:06.818 : I 905 materials read from SAP
+05/05/17 9:03:07.168 : I 0 normal orders read from SAP
+05/05/17 9:03:07.168 : I 0 re-work orders read from SAP
+05/05/17 9:03:27.438 : I 905 materials read from SAP
+05/05/17 9:03:27.746 : I 0 normal orders read from SAP
+05/05/17 9:03:27.750 : I 0 re-work orders read from SAP
+05/05/17 9:04:45.253 : I 905 materials read from SAP
+05/05/17 9:04:45.599 : I 0 normal orders read from SAP
+05/05/17 9:04:45.599 : I 0 re-work orders read from SAP
+05/05/17 9:33:26.202 : I 905 materials read from SAP
+05/05/17 9:33:26.612 : I 0 normal orders read from SAP
+05/05/17 9:33:26.613 : I 0 re-work orders read from SAP
+05/05/17 9:42:08.206 : I 905 materials read from SAP
+05/05/17 9:42:08.545 : I 0 normal orders read from SAP
+05/05/17 9:42:08.547 : I 0 re-work orders read from SAP
+05/05/17 9:52:09.278 : I 905 materials read from SAP
+05/05/17 9:52:09.577 : I 0 normal orders read from SAP
+05/05/17 9:52:09.578 : I 0 re-work orders read from SAP
+05/05/17 9:52:23.087 : I 905 materials read from SAP
+05/05/17 9:52:23.336 : I 0 normal orders read from SAP
+05/05/17 9:52:23.346 : I 0 re-work orders read from SAP
+05/05/17 9:54:15.762 : I 905 materials read from SAP
+05/05/17 9:54:17.432 : I 76 normal orders read from SAP
+05/05/17 9:54:17.442 : I 0 re-work orders read from SAP
+05/05/17 9:54:56.694 : I 134 normal orders read from DB
+05/05/17 9:54:56.704 : I 0 re-work orders read from DB
+05/05/17 9:55:09.962 : I Normal Packing mode selected
+05/05/17 9:55:56.054 : I 905 materials read from SAP
+05/05/17 9:55:57.695 : I Flagging carton 400000109 OK
+05/05/17 9:55:58.047 : I 158 normal orders read from SAP
+05/05/17 9:55:58.057 : I 0 re-work orders read from SAP
+05/05/17 9:57:14.202 : I 905 materials read from SAP
+05/05/17 9:57:14.715 : I 158 normal orders read from SAP
+05/05/17 9:57:14.716 : I 0 re-work orders read from SAP
+05/05/17 9:57:17.880 : I Material 311400J0 tare set to 0.39
+05/05/17 9:58:12.162 : I Packed material 311400J0 barcode 400000111910 weight 14.61
+05/05/17 10:01:31.746 : I 905 materials read from SAP
+05/05/17 10:01:32.401 : I 158 normal orders read from SAP
+05/05/17 10:01:32.402 : I 0 re-work orders read from SAP
+05/05/17 10:01:33.911 : I Material 311400J0 tare set to 0.39
+05/05/17 10:05:05.087 : I 905 materials read from SAP
+05/05/17 10:05:05.770 : I 158 normal orders read from SAP
+05/05/17 10:05:05.771 : I 0 re-work orders read from SAP
+05/05/17 10:05:07.874 : I Material 311400J0 tare set to 0.39
+05/05/17 10:05:08.623 : E Stable weight not returned from scale
+05/05/17 10:05:25.526 : I 905 materials read from SAP
+05/05/17 10:05:26.080 : I 158 normal orders read from SAP
+05/05/17 10:05:26.080 : I 0 re-work orders read from SAP
+05/05/17 10:05:28.000 : I Material 311400J0 tare set to 0.39
+05/05/17 10:05:36.033 : I Packed material 311400J0 barcode 400000113910 weight 14.61
+05/05/17 10:06:05.029 : I 905 materials read from SAP
+05/05/17 10:06:05.304 : I Flagging carton 400000113 OK
+05/05/17 10:06:05.798 : I 158 normal orders read from SAP
+05/05/17 10:06:05.799 : I 0 re-work orders read from SAP
+05/05/17 10:06:07.824 : I Material 311400J0 tare set to 0.39
+05/05/17 10:14:28.362 : I 905 materials read from SAP
+05/05/17 10:14:28.574 : I Flagging carton 400000114 OK
+05/05/17 10:14:28.848 : I 158 normal orders read from SAP
+05/05/17 10:14:28.858 : I 0 re-work orders read from SAP
+05/05/17 10:14:44.013 : I Receiving message from other packing station '2,000001014579,311400J0'
+05/05/17 10:14:50.759 : I Receiving message from other packing station '2,000001014579,311400J0'
+05/05/17 10:40:03.991 : I 905 materials read from SAP
+05/05/17 10:40:04.350 : I Flagging carton 400000115 OK
+05/05/17 10:40:04.356 : I Flagging carton 400000116 OK
+05/05/17 10:40:05.076 : I 158 normal orders read from SAP
+05/05/17 10:40:05.077 : I 0 re-work orders read from SAP
+05/05/17 10:40:17.303 : I Receiving message from other packing station '2,000001014579,311400J0'
+05/05/17 10:40:59.806 : I 905 materials read from SAP
+05/05/17 10:41:00.219 : I Flagging carton 400000117 OK
+05/05/17 10:41:00.717 : I 158 normal orders read from SAP
+05/05/17 10:41:00.717 : I 0 re-work orders read from SAP
+05/05/17 10:41:08.205 : I Receiving message from other packing station '000001014579,311400J0,1'
+05/05/17 11:11:06.776 : I 905 materials read from SAP
+05/05/17 11:11:07.046 : I Flagging carton 400000118 OK
+05/05/17 11:11:07.507 : I 158 normal orders read from SAP
+05/05/17 11:11:07.507 : I 0 re-work orders read from SAP
+05/05/17 11:41:13.599 : I 905 materials read from SAP
+05/05/17 11:41:15.047 : I Flagging carton 400000119 OK
+05/05/17 11:41:15.057 : I Flagging carton 400000120 OK
+05/05/17 11:41:15.066 : I Flagging carton 400000121 OK
+05/05/17 11:41:15.077 : I Flagging carton 400000122 OK
+05/05/17 11:41:15.087 : I Flagging carton 400000123 OK
+05/05/17 11:41:15.449 : I 158 normal orders read from SAP
+05/05/17 11:41:15.459 : I 0 re-work orders read from SAP
+05/05/17 11:41:35.083 : I 158 normal orders read from DB
+05/05/17 11:41:35.093 : I 0 re-work orders read from DB
+05/05/17 11:41:49.882 : I 158 normal orders read from SAP
+05/05/17 11:41:49.894 : I 0 re-work orders read from SAP
+05/05/17 11:42:28.734 : I 905 materials read from DB
+05/05/17 11:42:28.754 : I 158 normal orders read from DB
+05/05/17 11:42:28.765 : I 0 re-work orders read from DB
+05/05/17 11:42:40.112 : I Material 311400J0 tare set to 0.390
+05/05/17 11:42:41.594 : I Packed material 311400J0 barcode 400000125910 weight 14.610
+05/05/17 11:42:57.118 : I Material 311400J0 tare set to 0.390
+05/05/17 11:43:05.896 : I Packed material 311400J0 barcode 400000130910 weight 14.610
+05/05/17 11:43:08.243 : I Material 311400J0 tare set to 0.390
+05/05/17 11:43:25.792 : I Material 311300F0 tare set to 0.681
+05/05/17 11:43:31.406 : I Material 311400J0 tare set to 0.390
+05/05/17 11:43:34.972 : I Packed material 311400J0 barcode 400000131910 weight 14.610
+05/05/17 11:43:42.235 : I Material 311400J0 tare set to 0.390
+05/05/17 11:44:19.381 : I Packed material 311400J0 barcode 400000134910 weight 14.610
+05/05/17 11:44:22.261 : I Material 324000C0 tare set to 0.750
+05/05/17 12:45:52.156 : I 905 materials read from DB
+05/05/17 12:45:52.283 : I 158 normal orders read from DB
+05/05/17 12:45:52.287 : I 0 re-work orders read from DB
+05/05/17 12:46:00.127 : I 905 materials read from DB
+05/05/17 12:46:00.148 : I 158 normal orders read from DB
+05/05/17 12:46:00.158 : I 0 re-work orders read from DB
+05/05/17 12:46:16.719 : I 158 normal orders read from SAP
+05/05/17 12:46:16.728 : I 0 re-work orders read from SAP
+05/05/17 12:46:26.809 : I 905 materials read from DB
+05/05/17 12:46:26.831 : I 158 normal orders read from DB
+05/05/17 12:46:26.841 : I 0 re-work orders read from DB
+05/05/17 12:47:55.131 : I 905 materials read from DB
+05/05/17 12:47:55.154 : I 158 normal orders read from DB
+05/05/17 12:47:55.164 : I 0 re-work orders read from DB

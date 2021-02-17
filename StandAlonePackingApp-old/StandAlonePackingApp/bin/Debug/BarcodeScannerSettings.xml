@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<BarcodeScannerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <readFrom>COM4</readFrom>
+  <prefix>65</prefix>
+  <suffix>69</suffix>
+  <baudRate>9600</baudRate>
+  <parity>None</parity>
+  <dataBits>8</dataBits>
+  <stopBits>One</stopBits>
+</BarcodeScannerSettings>

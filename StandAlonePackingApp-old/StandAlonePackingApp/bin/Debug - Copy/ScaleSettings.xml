@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ScaleSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <scaleType>Marel2200</scaleType>
+  <localTare>true</localTare>
+  <comPort>COM1</comPort>
+  <baudRate>9600</baudRate>
+  <parity>None</parity>
+  <dataBits>8</dataBits>
+  <stopBits>One</stopBits>
+  <hostname>172.16.208.56</hostname>
+  <tcpPort>52211</tcpPort>
+</ScaleSettings>

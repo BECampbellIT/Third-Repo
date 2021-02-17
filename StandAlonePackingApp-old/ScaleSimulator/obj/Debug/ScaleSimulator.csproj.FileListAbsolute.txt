@@ -1,0 +1,19 @@
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.Form1.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.Properties.Resources.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.csproj.GenerateResource.Cache
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ScaleSimulator\bin\Debug\ScaleSimulator.exe.config
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ScaleSimulator\bin\Debug\ScaleSimulator.exe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ScaleSimulator\bin\Debug\ScaleSimulator.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.exe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ScaleSimulator\bin\Debug\ScaleSimulator.exe.config
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ScaleSimulator\bin\Debug\ScaleSimulator.exe
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ScaleSimulator\bin\Debug\ScaleSimulator.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.Form1.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.Properties.Resources.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.csproj.GenerateResource.Cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.exe
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\ScaleSimulator\obj\Debug\ScaleSimulator.csprojResolveAssemblyReference.cache

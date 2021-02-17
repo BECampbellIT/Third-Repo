@@ -1,0 +1,38 @@
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingLib.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\ShopFloorLib.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe.config
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\ScaleSimulator.exe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\ShopFloorLib.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingLib.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\obj\Debug\StandAlonePackingWriter.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\obj\Debug\StandAlonePackingWriter.ProjectInstaller.resources
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\obj\Debug\StandAlonePackingWriter.csproj.GenerateResource.Cache
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\obj\Debug\StandAlonePackingWriter.exe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\obj\Debug\StandAlonePackingWriter.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\ScaleSimulator.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\MySql.Data.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingLib.dll.config
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\MySql.Data.xml
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\ScaleSimulator.exe.config
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\obj\Debug\StandAlonePackingWriter.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe.config
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\MySql.Data.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\ShopFloorLib.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingLib.dll
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\ScaleSimulator.exe
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\ShopFloorLib.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingLib.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingLib.dll.config
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\MySql.Data.xml
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\ScaleSimulator.pdb
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\ScaleSimulator.exe.config
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\obj\Debug\StandAlonePackingWriter.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\obj\Debug\StandAlonePackingWriter.ProjectInstaller.resources
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\obj\Debug\StandAlonePackingWriter.csproj.GenerateResource.Cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\obj\Debug\StandAlonePackingWriter.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\obj\Debug\StandAlonePackingWriter.exe
+C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\obj\Debug\StandAlonePackingWriter.pdb

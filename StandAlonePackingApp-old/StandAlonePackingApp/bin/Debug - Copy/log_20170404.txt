@@ -1,0 +1,144 @@
+04/04/17 9:50:50.244 : I 905 materials read from DB
+04/04/17 9:50:50.421 : I 0 normal orders read from SAP
+04/04/17 9:50:50.431 : I 0 re-work orders read from SAP
+04/04/17 9:50:54.777 : I 905 materials read from DB
+04/04/17 9:50:54.941 : I 0 normal orders read from SAP
+04/04/17 9:50:54.952 : I 0 re-work orders read from SAP
+04/04/17 10:06:41.725 : I 905 materials read from DB
+04/04/17 10:06:42.186 : I 158 normal orders read from SAP
+04/04/17 10:06:42.196 : I 0 re-work orders read from SAP
+04/04/17 10:06:46.917 : I Material 310500F0 tare set to 0.527
+04/04/17 10:06:48.291 : E Stable weight not returned from scale
+04/04/17 10:07:03.534 : I 905 materials read from DB
+04/04/17 10:07:03.979 : I 158 normal orders read from SAP
+04/04/17 10:07:03.989 : I 0 re-work orders read from SAP
+04/04/17 10:07:05.286 : I Material 310500F0 tare set to 0.527
+04/04/17 10:07:20.102 : I Packed material 310500F0 barcode 400000033911 weight 16.000
+04/04/17 10:07:24.281 : I Material 310500F0 tare set to 0.527
+04/04/17 10:07:25.116 : I Packed material 310500F0 barcode 400000034911 weight 16.000
+04/04/17 10:07:29.357 : I Material 310100F0 tare set to 0.712
+04/04/17 10:07:32.356 : I Material 310500F0 tare set to 0.527
+04/04/17 10:12:02.507 : I Packed material 310500F0 barcode 400000035911 weight 16.000
+04/04/17 10:33:52.266 : I 905 materials read from DB
+04/04/17 10:33:53.617 : I 158 normal orders read from SAP
+04/04/17 10:33:53.627 : I 0 re-work orders read from SAP
+04/04/17 10:33:55.335 : I Material 310500F0 tare set to 0.527
+04/04/17 10:33:57.924 : I Packed material 310500F0 barcode 400000036911 weight 16.000
+04/04/17 10:44:56.652 : I 905 materials read from DB
+04/04/17 10:44:56.712 : I 158 normal orders read from DB
+04/04/17 10:44:56.723 : I 0 re-work orders read from DB
+04/04/17 12:30:43.439 : I 905 materials read from DB
+04/04/17 12:30:43.483 : I 158 normal orders read from DB
+04/04/17 12:30:43.494 : I 0 re-work orders read from DB
+04/04/17 12:30:44.652 : I Material 310500F0 tare set to 0.527
+04/04/17 12:34:01.290 : I 905 materials read from DB
+04/04/17 12:34:01.307 : I 158 normal orders read from DB
+04/04/17 12:34:01.308 : I 0 re-work orders read from DB
+04/04/17 12:34:03.398 : I Material 310500F0 tare set to 0.527
+04/04/17 12:45:54.875 : I 905 materials read from DB
+04/04/17 12:45:54.902 : I 158 normal orders read from DB
+04/04/17 12:45:54.902 : I 0 re-work orders read from DB
+04/04/17 12:46:00.846 : I Material 310500F0 tare set to 0.527
+04/04/17 12:48:31.893 : I 905 materials read from DB
+04/04/17 12:48:31.920 : I 158 normal orders read from DB
+04/04/17 12:48:31.921 : I 0 re-work orders read from DB
+04/04/17 12:48:34.303 : I Material 310500F0 tare set to 0.527
+04/04/17 12:52:02.169 : I 905 materials read from DB
+04/04/17 12:52:43.120 : I 905 materials read from DB
+04/04/17 12:53:38.252 : I 905 materials read from DB
+04/04/17 12:53:52.226 : I 905 materials read from DB
+04/04/17 12:54:22.505 : I 905 materials read from DB
+04/04/17 12:55:22.374 : I 905 materials read from DB
+04/04/17 12:57:24.088 : I 905 materials read from DB
+04/04/17 12:57:28.353 : I 158 normal orders read from DB
+04/04/17 12:57:28.626 : I 0 re-work orders read from DB
+04/04/17 12:57:43.462 : I Material 310500F0 tare set to 0.527
+04/04/17 13:00:54.331 : I 905 materials read from DB
+04/04/17 13:03:06.286 : I 905 materials read from DB
+04/04/17 13:05:19.037 : I 905 materials read from DB
+04/04/17 13:07:10.093 : I 905 materials read from DB
+04/04/17 13:07:10.109 : I 158 normal orders read from DB
+04/04/17 13:07:10.109 : I 0 re-work orders read from DB
+04/04/17 13:07:36.905 : I 905 materials read from DB
+04/04/17 13:07:36.921 : I 158 normal orders read from DB
+04/04/17 13:07:36.922 : I 0 re-work orders read from DB
+04/04/17 13:07:49.258 : I 905 materials read from DB
+04/04/17 13:07:49.274 : I 158 normal orders read from DB
+04/04/17 13:07:49.276 : I 0 re-work orders read from DB
+04/04/17 13:07:50.624 : I Material 310500F0 tare set to 0.527
+04/04/17 13:09:54.270 : I 905 materials read from DB
+04/04/17 13:09:54.286 : I 158 normal orders read from DB
+04/04/17 13:09:54.286 : I 0 re-work orders read from DB
+04/04/17 13:09:56.506 : I Material 310500F0 tare set to 0.527
+04/04/17 13:09:59.094 : E Stable weight not returned from scale
+04/04/17 13:10:15.378 : I 905 materials read from DB
+04/04/17 13:10:15.397 : I 158 normal orders read from DB
+04/04/17 13:10:15.407 : I 0 re-work orders read from DB
+04/04/17 13:10:19.559 : I Material 310500F0 tare set to 0.527
+04/04/17 13:10:22.875 : I Packed material 310500F0 barcode 400000037911 weight 16.000
+04/04/17 13:10:25.708 : I Material 310500F0 tare set to 0.527
+04/04/17 13:10:26.621 : I Packed material 310500F0 barcode 400000038911 weight 16.000
+04/04/17 13:10:28.980 : I Material 310500F0 tare set to 0.527
+04/04/17 13:10:29.748 : I Packed material 310500F0 barcode 400000039911 weight 16.000
+04/04/17 14:42:22.815 : CRITICAL Error opening DB connection MySql.Data.MySqlClient.MySqlException (0x80004005): Host '172.16.100.102' is not allowed to connect to this MySQL server
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at StandAlonePackingLib.CommonData.OpenDBConnection() in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\CommonData.cs:line 42
+04/04/17 15:03:45.173 : I 905 materials read from DB
+04/04/17 15:03:45.209 : I 158 normal orders read from DB
+04/04/17 15:03:45.219 : I 0 re-work orders read from DB
+04/04/17 15:03:48.968 : I Material 321400F0 tare set to 0.681
+04/04/17 15:03:54.359 : I 905 materials read from DB
+04/04/17 15:03:54.379 : I 158 normal orders read from DB
+04/04/17 15:03:54.389 : I 0 re-work orders read from DB
+04/04/17 15:15:19.266 : I 905 materials read from DB
+04/04/17 15:15:19.298 : I 158 normal orders read from DB
+04/04/17 15:15:19.308 : I 0 re-work orders read from DB
+04/04/17 15:15:26.495 : I Material 323400J0 tare set to 0.626
+04/04/17 15:15:27.594 : E Stable weight not returned from scale
+04/04/17 15:15:29.146 : I Material 322800J0 tare set to 1.144
+04/04/17 15:15:30.477 : E Stable weight not returned from scale
+04/04/17 15:15:39.541 : I 905 materials read from DB
+04/04/17 15:15:39.569 : I 158 normal orders read from DB
+04/04/17 15:15:39.579 : I 0 re-work orders read from DB
+04/04/17 15:15:42.134 : I Material 321400F0 tare set to 0.681
+04/04/17 15:15:45.503 : I Packed material 321400F0 barcode 400000045911 weight 14.319
+04/04/17 15:16:12.060 : I Material 310800F0 tare set to 0.681
+04/04/17 15:16:13.614 : I Packed material 310800F0 barcode 400000046911 weight 20.000
+04/04/17 16:53:58.779 : I 905 materials read from DB
+04/04/17 16:53:58.816 : I 158 normal orders read from DB
+04/04/17 16:53:58.830 : I 0 re-work orders read from DB
+04/04/17 16:54:02.158 : I Material 310800F0 tare set to 0.681
+04/04/17 16:54:03.550 : I Material 310800F0 tare set to 0.681
+04/04/17 16:54:12.495 : I 905 materials read from DB
+04/04/17 16:54:12.527 : I 158 normal orders read from DB
+04/04/17 16:54:12.537 : I 0 re-work orders read from DB
+04/04/17 16:54:15.825 : I Material 310800F0 tare set to 0.681
+04/04/17 16:54:17.693 : I Packed material 310800F0 barcode 400000049911 weight 20.000
+04/04/17 16:54:22.667 : I Material 310800F0 tare set to 0.681
+04/04/17 16:56:10.551 : I 905 materials read from DB
+04/04/17 16:56:10.592 : I 158 normal orders read from DB
+04/04/17 16:56:10.600 : I 0 re-work orders read from DB
+04/04/17 16:56:12.910 : I Material 310800F0 tare set to 0.681
+04/04/17 16:56:37.586 : I Material 310500F0 tare set to 0.527
+04/04/17 16:56:38.800 : I Material 310800F0 tare set to 0.681
+04/04/17 17:12:32.016 : I 905 materials read from DB
+04/04/17 17:12:32.048 : I 158 normal orders read from DB
+04/04/17 17:12:32.058 : I 0 re-work orders read from DB
+04/04/17 17:12:45.716 : I 905 materials read from DB
+04/04/17 17:12:45.745 : I 158 normal orders read from DB
+04/04/17 17:12:45.755 : I 0 re-work orders read from DB
+04/04/17 17:12:47.691 : I Material 310500F0 tare set to 0.527
+04/04/17 17:12:57.567 : I Material 321400F0 tare set to 0.681
+04/04/17 17:13:00.823 : I Material 310600J0 tare set to 0.306
+04/04/17 17:13:06.090 : I Deletion mode selected
+04/04/17 17:13:11.046 : I Part Carton mode selected
+04/04/17 17:13:13.267 : I Re-work mode selected
+04/04/17 17:13:33.240 : I Normal Packing mode selected

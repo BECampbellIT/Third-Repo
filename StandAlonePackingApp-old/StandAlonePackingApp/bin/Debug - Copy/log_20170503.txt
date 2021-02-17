@@ -1,0 +1,325 @@
+05/03/17 10:11:41.346 : I 905 materials read from DB
+05/03/17 10:11:42.114 : I 0 normal orders read from SAP
+05/03/17 10:11:42.114 : I 0 re-work orders read from SAP
+05/03/17 10:13:04.298 : I 0 normal orders read from DB
+05/03/17 10:13:04.300 : I 0 re-work orders read from DB
+05/03/17 10:13:28.257 : I 905 materials read from DB
+05/03/17 10:13:29.250 : I 0 normal orders read from SAP
+05/03/17 10:13:29.252 : I 0 re-work orders read from SAP
+05/03/17 10:28:50.174 : I 905 materials read from DB
+05/03/17 10:28:50.928 : I 0 normal orders read from SAP
+05/03/17 10:28:50.928 : I 0 re-work orders read from SAP
+05/03/17 10:29:11.552 : E Stable weight not returned from scale
+05/03/17 10:29:42.040 : I 905 materials read from DB
+05/03/17 10:29:42.777 : I 0 normal orders read from SAP
+05/03/17 10:29:42.778 : I 0 re-work orders read from SAP
+05/03/17 10:30:58.444 : I 905 materials read from DB
+05/03/17 10:30:59.210 : I 0 normal orders read from SAP
+05/03/17 10:30:59.211 : I 0 re-work orders read from SAP
+05/03/17 10:33:08.395 : I 905 materials read from DB
+05/03/17 10:33:09.053 : I 0 normal orders read from SAP
+05/03/17 10:33:09.054 : I 0 re-work orders read from SAP
+05/03/17 10:41:48.950 : I 905 materials read from DB
+05/03/17 10:41:49.797 : I 0 normal orders read from SAP
+05/03/17 10:41:49.798 : I 0 re-work orders read from SAP
+05/03/17 10:42:28.075 : W Unknown symbol in label file: &MAKTX_EN&
+05/03/17 10:42:28.117 : W Unknown symbol in label file: &NTGEW&
+05/03/17 10:42:28.149 : W Unknown symbol in label file: &TAGEW&
+05/03/17 10:42:28.178 : W Unknown symbol in label file: &ERDAT&
+05/03/17 10:49:01.292 : I 905 materials read from DB
+05/03/17 10:49:02.075 : I 0 normal orders read from SAP
+05/03/17 10:49:02.077 : I 0 re-work orders read from SAP
+05/03/17 10:52:23.446 : I 905 materials read from DB
+05/03/17 10:52:24.166 : I 0 normal orders read from SAP
+05/03/17 10:52:24.166 : I 0 re-work orders read from SAP
+05/03/17 10:52:27.674 : I Test label printed successfully
+05/03/17 13:03:35.875 : I 905 materials read from DB
+05/03/17 13:03:38.267 : I 0 normal orders read from SAP
+05/03/17 13:03:38.277 : I 0 re-work orders read from SAP
+05/03/17 13:03:42.931 : E Stable weight not returned from scale
+05/03/17 13:03:42.946 : E Error printing Test Label
+05/03/17 13:03:55.519 : I 905 materials read from DB
+05/03/17 13:03:55.761 : I 0 normal orders read from SAP
+05/03/17 13:03:55.771 : I 0 re-work orders read from SAP
+05/03/17 13:03:58.637 : E Label file C:\LabelFiles\TEST_LABEL_WP.lbl couldn't be opened. Msg System.IO.FileNotFoundException: Could not find file 'C:\LabelFiles\TEST_LABEL_WP.lbl'.
+File name: 'C:\LabelFiles\TEST_LABEL_WP.lbl'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at ShopFloorLib.LabelPrinter.BuildFileInfo(String fileName) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\LabelPrinter.cs:line 72
+05/03/17 13:06:55.780 : I 905 materials read from DB
+05/03/17 13:06:56.018 : I 0 normal orders read from SAP
+05/03/17 13:06:56.028 : I 0 re-work orders read from SAP
+05/03/17 13:06:59.320 : E Label file C:\LabelFiles\TEST_LABEL_WP.lbl couldn't be opened. Msg System.IO.FileNotFoundException: Could not find file 'C:\LabelFiles\TEST_LABEL_WP.lbl'.
+File name: 'C:\LabelFiles\TEST_LABEL_WP.lbl'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at ShopFloorLib.LabelPrinter.BuildFileInfo(String fileName) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\LabelPrinter.cs:line 74
+05/03/17 13:06:59.341 : I Test label printed successfully
+05/03/17 13:08:02.018 : I 905 materials read from DB
+05/03/17 13:08:02.754 : I 0 normal orders read from SAP
+05/03/17 13:08:02.754 : I 0 re-work orders read from SAP
+05/03/17 13:08:06.562 : E Label file C:\LabelFiles\TEST_LABEL_WP.lbl couldn't be opened. Msg System.IO.FileNotFoundException: Could not find file 'C:\LabelFiles\TEST_LABEL_WP.lbl'.
+File name: 'C:\LabelFiles\TEST_LABEL_WP.lbl'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at ShopFloorLib.LabelPrinter.BuildFileInfo(String fileName) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\ShopFloorLib\LabelPrinter.cs:line 74
+05/03/17 13:08:06.568 : E Error printing Test Label
+05/03/17 13:08:40.983 : I Test label printed successfully
+05/03/17 13:10:04.762 : I 905 materials read from DB
+05/03/17 13:10:55.742 : I 905 materials read from DB
+05/03/17 13:27:54.512 : I 905 materials read from DB
+05/03/17 13:28:09.314 : I 0 normal orders read from SAP
+05/03/17 13:28:09.332 : I 0 re-work orders read from SAP
+05/03/17 13:35:02.928 : I 905 materials read from DB
+05/03/17 13:35:03.728 : E Error reading orders from SAP
+System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at http://172.16.108.115:8000/sap/bc/srt/rfc/sap/zstandalonepacking/110/zsapa/b1 that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied 172.16.108.115:8000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetProductionOrders(ZGetProductionOrdersRequest request)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetProductionOrders(ZGetProductionOrdersRequest request) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2155
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.ZGetProductionOrders(ZGetProductionOrders ZGetProductionOrders1) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2161
+   at StandAlonePackingLib.Order.ReadOrdersFromSAP(List`1& normalOrders, List`1& reworkOrders, List`1& slDates) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Order.cs:line 148
+05/03/17 13:37:25.129 : I 905 materials read from DB
+05/03/17 13:37:25.861 : E Error reading orders from SAP
+System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at http://172.16.108.115:8000/sap/bc/srt/rfc/sap/zstandalonepacking/110/zsapa/b1 that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied 172.16.108.115:8000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetProductionOrders(ZGetProductionOrdersRequest request)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetProductionOrders(ZGetProductionOrdersRequest request) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2155
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.ZGetProductionOrders(ZGetProductionOrders ZGetProductionOrders1) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2161
+   at StandAlonePackingLib.Order.ReadOrdersFromSAP(List`1& normalOrders, List`1& reworkOrders, List`1& slDates) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Order.cs:line 148
+05/03/17 13:37:36.581 : I 0 normal orders read from DB
+05/03/17 13:37:36.587 : I 0 re-work orders read from DB
+05/03/17 13:41:54.287 : I 905 materials read from DB
+05/03/17 13:41:55.046 : E Error reading orders from SAP
+05/03/17 13:41:55.049 : E System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at http://172.16.108.115:8000/sap/bc/srt/rfc/sap/zstandalonepacking/110/zsapa/b1 that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied 172.16.108.115:8000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetProductionOrders(ZGetProductionOrdersRequest request)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetProductionOrders(ZGetProductionOrdersRequest request) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2155
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.ZGetProductionOrders(ZGetProductionOrders ZGetProductionOrders1) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2161
+   at StandAlonePackingLib.Order.ReadOrdersFromSAP(List`1& normalOrders, List`1& reworkOrders, List`1& slDates) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Order.cs:line 148
+05/03/17 13:42:09.460 : I 905 materials read from DB
+05/03/17 13:42:10.119 : E Error reading orders from SAP
+05/03/17 13:42:10.121 : ? System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at http://172.16.108.115:8000/sap/bc/srt/rfc/sap/zstandalonepacking/110/zsapa/b1 that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied 172.16.108.115:8000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetProductionOrders(ZGetProductionOrdersRequest request)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetProductionOrders(ZGetProductionOrdersRequest request) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2155
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.ZGetProductionOrders(ZGetProductionOrders ZGetProductionOrders1) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2161
+   at StandAlonePackingLib.Order.ReadOrdersFromSAP(List`1& normalOrders, List`1& reworkOrders, List`1& slDates) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Order.cs:line 148
+05/03/17 13:42:21.845 : I 0 normal orders read from DB
+05/03/17 13:42:21.848 : I 0 re-work orders read from DB
+05/03/17 13:54:01.629 : E Error reading materials from SAP
+05/03/17 13:54:01.633 : ? System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at http://172.16.108.115:8000/sap/bc/srt/rfc/sap/zstandalonepacking/110/zsapa/b1 that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied 172.16.108.115:8000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetFinishedGoodMaterials(ZGetFinishedGoodMaterialsRequest request)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetFinishedGoodMaterials(ZGetFinishedGoodMaterialsRequest request) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2132
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.ZGetFinishedGoodMaterials(ZGetFinishedGoodMaterials ZGetFinishedGoodMaterials1) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2138
+   at StandAlonePackingLib.Material.readMaterialsFromSAP(List`1& mats) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Material.cs:line 61
+05/03/17 13:54:01.901 : E Error reading orders from SAP
+05/03/17 13:54:01.902 : ? System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at http://172.16.108.115:8000/sap/bc/srt/rfc/sap/zstandalonepacking/110/zsapa/b1 that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied 172.16.108.115:8000
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- End of inner exception stack trace ---
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetProductionOrders(ZGetProductionOrdersRequest request)
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.StandAlonePackingLib.SAPFuncs.ZStandalonePacking.ZGetProductionOrders(ZGetProductionOrdersRequest request) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2155
+   at StandAlonePackingLib.SAPFuncs.ZStandalonePackingClient.ZGetProductionOrders(ZGetProductionOrders ZGetProductionOrders1) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Service References\SAPFuncs\Reference.cs:line 2161
+   at StandAlonePackingLib.Order.ReadOrdersFromSAP(List`1& normalOrders, List`1& reworkOrders, List`1& slDates) in c:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingLib\Order.cs:line 148
+05/03/17 13:54:15.159 : I 0 normal orders read from DB
+05/03/17 13:54:15.161 : I 0 re-work orders read from DB
+05/03/17 13:54:19.234 : I 905 materials read from DB
+05/03/17 13:59:29.777 : I 905 materials read from SAP
+05/03/17 13:59:31.267 : I 158 normal orders read from SAP
+05/03/17 13:59:31.268 : I 0 re-work orders read from SAP
+05/03/17 14:01:23.305 : I 905 materials read from SAP
+05/03/17 14:01:23.959 : I 158 normal orders read from SAP
+05/03/17 14:01:23.959 : I 0 re-work orders read from SAP
+05/03/17 14:01:25.618 : I Material 310800F0 tare set to 0.681
+05/03/17 14:01:29.288 : I Material 311400J0 tare set to 0.39
+05/03/17 14:01:31.962 : I Packed material 311400J0 barcode 400000058910 weight 14.61
+05/03/17 14:01:34.352 : I Material 311400J0 tare set to 0.39
+05/03/17 14:01:35.157 : I Packed material 311400J0 barcode 400000059910 weight 14.61
+05/03/17 14:01:37.328 : I Material 311400J0 tare set to 0.39
+05/03/17 14:01:38.174 : I Packed material 311400J0 barcode 400000060910 weight 14.61
+05/03/17 14:04:50.300 : I Material 311400J0 tare set to 0.39
+05/03/17 14:04:51.785 : I Packed material 311400J0 barcode 400000061910 weight 14.61
+05/03/17 14:04:52.266 : I Material 311400J0 tare set to 0.39
+05/03/17 14:04:59.138 : I Packed material 311400J0 barcode 400000062910 weight 14.61
+05/03/17 14:04:59.823 : I Material 311400J0 tare set to 0.39
+05/03/17 14:05:01.123 : I Packed material 311400J0 barcode 400000063910 weight 14.61
+05/03/17 15:11:36.793 : I 905 materials read from SAP
+05/03/17 15:11:39.052 : I 158 normal orders read from SAP
+05/03/17 15:11:39.053 : I 0 re-work orders read from SAP
+05/03/17 15:12:53.100 : I Material 311400J0 tare set to 0.39
+05/03/17 15:12:54.099 : I Packed material 311400J0 barcode 400000064910 weight 14.61
+05/03/17 15:13:04.666 : I 158 normal orders read from SAP
+05/03/17 15:13:04.670 : I 0 re-work orders read from SAP
+05/03/17 15:13:24.338 : I 905 materials read from SAP
+05/03/17 15:13:24.746 : I 158 normal orders read from SAP
+05/03/17 15:13:24.755 : I 0 re-work orders read from SAP
+05/03/17 15:14:28.779 : I 158 normal orders read from SAP
+05/03/17 15:14:28.790 : I 0 re-work orders read from SAP
+05/03/17 15:18:51.641 : I 905 materials read from SAP
+05/03/17 15:18:52.104 : I Flagging carton 400000064 OK
+05/03/17 15:19:15.517 : I 158 normal orders read from SAP
+05/03/17 15:19:15.519 : I 0 re-work orders read from SAP
+05/03/17 15:28:44.431 : I 905 materials read from SAP
+05/03/17 15:29:31.439 : I 905 materials read from SAP
+05/03/17 15:29:42.813 : I 158 normal orders read from SAP
+05/03/17 15:29:42.813 : I 0 re-work orders read from SAP
+05/03/17 15:37:50.171 : I 905 materials read from SAP
+05/03/17 15:37:50.678 : I 158 normal orders read from SAP
+05/03/17 15:37:50.688 : I 0 re-work orders read from SAP
+05/03/17 15:37:55.558 : I 158 normal orders read from DB
+05/03/17 15:37:55.568 : I 0 re-work orders read from DB
+05/03/17 15:37:59.809 : I 158 normal orders read from DB
+05/03/17 15:37:59.820 : I 0 re-work orders read from DB
+05/03/17 15:38:24.070 : I Part Carton mode selected
+05/03/17 15:38:29.022 : I Deletion mode selected
+05/03/17 15:38:32.053 : I Normal Packing mode selected
+05/03/17 15:38:47.612 : I Material 311400J0 tare set to 0.390
+05/03/17 15:38:49.456 : I Packed material 311400J0 barcode 400000065910 weight 14.610
+05/03/17 15:43:05.078 : I 905 materials read from SAP
+05/03/17 15:43:05.409 : I Flagging carton 400000065 OK
+05/03/17 15:43:05.779 : I 158 normal orders read from SAP
+05/03/17 15:43:05.779 : I 0 re-work orders read from SAP
+05/03/17 15:43:15.398 : I Material 311400J0 tare set to 0.39
+05/03/17 15:43:16.613 : I Packed material 311400J0 barcode 400000066910 weight 14.61
+05/03/17 15:43:22.536 : I Re-printed label for material 311400J0 serial 400000066
+05/03/17 15:44:13.910 : I 905 materials read from SAP
+05/03/17 15:44:14.491 : I Flagging carton 400000066 OK
+05/03/17 15:44:14.980 : I 158 normal orders read from SAP
+05/03/17 15:44:14.981 : I 0 re-work orders read from SAP
+05/03/17 15:44:16.467 : I Material 311400J0 tare set to 0.39
+05/03/17 15:44:17.690 : I Packed material 311400J0 barcode 400000067910 weight 14.61
+05/03/17 15:44:22.191 : I Re-printed label for material 311400J0 serial 400000067

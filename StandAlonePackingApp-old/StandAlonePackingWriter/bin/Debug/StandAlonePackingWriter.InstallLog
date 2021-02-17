@@ -1,0 +1,62 @@
+﻿Installing assembly 'C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.InstallLog
+   assemblypath = C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe assembly.
+Committing assembly 'C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.InstallLog
+   assemblypath = C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.InstallLog
+   assemblypath = C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe
+Committing assembly 'C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.InstallLog
+   assemblypath = C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe
+Installing assembly 'C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.InstallLog
+   assemblypath = C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe
+Installing service StandAlone Packing Writer...
+Service StandAlone Packing Writer has been successfully installed.
+Creating EventLog source StandAlone Packing Writer in log Application...
+Committing assembly 'C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.InstallLog
+   assemblypath = C:\Users\Anthony\Documents\Visual Studio 2013\Projects\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe
+Installing assembly 'C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.InstallLog
+   assemblypath = C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe
+Installing service StandAlone Packing Writer...
+Creating EventLog source StandAlone Packing Writer in log Application...
+Rolling back assembly 'C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.InstallLog
+   assemblypath = C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe
+Restoring event log to previous state for source StandAlone Packing Writer.
+Installing assembly 'C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.InstallLog
+   assemblypath = C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe
+Installing service StandAlone Packing Writer...
+Service StandAlone Packing Writer has been successfully installed.
+Creating EventLog source StandAlone Packing Writer in log Application...
+Committing assembly 'C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.InstallLog
+   assemblypath = C:\Users\Anthony\source\repos\StandAlonePackingApp\StandAlonePackingWriter\bin\Debug\StandAlonePackingWriter.exe

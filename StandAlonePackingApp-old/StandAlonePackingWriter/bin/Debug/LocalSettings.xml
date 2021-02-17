@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<LocalSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DBServer>localhost</DBServer>
+  <DBUser>root</DBUser>
+  <DBPassword>iTUmRDW5x3MX9jsY7h9meg==</DBPassword>
+  <PullOrdersAtStartup>true</PullOrdersAtStartup>
+  <PullMaterialsAtStartup>true</PullMaterialsAtStartup>
+  <CartonSendInterval>15</CartonSendInterval>
+  <OrderReadInterval>0</OrderReadInterval>
+  <MaterialReadInterval>0</MaterialReadInterval>
+  <OtherPackingStationAddr>becnwlap002.becampbell.com.au</OtherPackingStationAddr>
+  <OtherPackingStationPort>5001</OtherPackingStationPort>
+  <ThisPackingStationPort>5002</ThisPackingStationPort>
+</LocalSettings>

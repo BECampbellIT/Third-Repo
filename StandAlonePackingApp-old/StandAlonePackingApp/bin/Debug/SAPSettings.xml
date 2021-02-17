@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SAPSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <hostname>172.16.108.117</hostname>
+  <client>300</client>
+  <user>apickering</user>
+  <password>WhjSZLIC9W1swLJSjSzcAA==</password>
+  <device>WP_T15</device>
+</SAPSettings>
