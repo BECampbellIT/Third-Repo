@@ -20,7 +20,7 @@ namespace ShopFloorLib
         private static int passwordIterations = 2;
         private static string initVector = "@1B2c3D4d5F7q7H8";
         private static int keySize = 256;
-        //test second commit
+        //test third commit
         public static string Encrypt(string plainText)
         {
             try
